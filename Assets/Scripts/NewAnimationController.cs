@@ -57,6 +57,19 @@ public class NewAnimationController : MonoBehaviour
             velocity += Time.deltaTime * acceleration;
         }
 
+        if (velocity > 0.1f  && rbfps.IsAir == false)
+        {
+            animator.SetBool("Running", true);
+        }
+
+        if (rbfps.IsAir == true && this.animator.GetCurrentAnimatorStateInfo(0).IsName("Walk to Run"))
+        {
+            print("air");
+            animator.SetBool("Running", false);
+            animator.speed = 0.3f;
+            animator.speed = 0.3f;
+        }
+
         //Backwards Walk
         if (backwardsPressed)
         {
@@ -94,7 +107,7 @@ public class NewAnimationController : MonoBehaviour
 
         if (playerController.climbing == true)
         {
-
+            animator.speed = 1f;
             animator.SetBool("Climb", true);
             playerController.climbing = false;
         }
@@ -107,13 +120,7 @@ public class NewAnimationController : MonoBehaviour
         }
 
 
-        if (playerController.IsVault == true)
-        {
-            Debug.Log("nob");
-            animator.SetTrigger("Vault");
-            playerController.IsVault = false;
-        }
-
+       
 
         if (rbfps.IsAir == true) 
         {
@@ -125,6 +132,7 @@ public class NewAnimationController : MonoBehaviour
 
         if (rbfps.IsAir == false)
         {
+            animator.speed = 1;
             StopCoroutine(falling());
             
             animator.SetBool("Air", false);
@@ -168,6 +176,7 @@ public class NewAnimationController : MonoBehaviour
         if (playerController.IsVault == true)
         {
             Debug.Log("nob");
+            animator.speed = 1f;
             animator.SetTrigger("Vault");
             playerController.IsVault = false;
         }
@@ -215,7 +224,7 @@ public class NewAnimationController : MonoBehaviour
 
         if (rbfps.IsAir == true)
         {
-
+            animator.speed = 1f;
             idlestopper = true;
             
         }
