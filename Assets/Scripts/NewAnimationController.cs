@@ -24,6 +24,7 @@ public class NewAnimationController : MonoBehaviour
     private RigidbodyFirstPersonController rbfps;
     private Rigidbody rb;
     public bool idlestopper = false;
+    public bool stop;
     
 
 
@@ -62,7 +63,7 @@ public class NewAnimationController : MonoBehaviour
             animator.SetBool("Running", true);
         }
 
-        if (rbfps.IsAir == true && this.animator.GetCurrentAnimatorStateInfo(0).IsName("Walk to Run") || animator.GetBool("Air2") == true)
+        if (rbfps.IsAir == true && this.animator.GetCurrentAnimatorStateInfo(0).IsName("Walk to Run"))
         {
             print("air");
             animator.SetBool("Running", false);
@@ -169,6 +170,17 @@ public class NewAnimationController : MonoBehaviour
             animator.SetBool("Jump", false);
         }
 
+        if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Hard Landing"))
+        {
+            stop = true;
+            playerController.rb.velocity = new Vector3(0, 0, 0);
+        }
+
+        if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Hard Landing") == false)
+        {
+            stop = false ;
+        }
+
 
 
 
@@ -220,7 +232,7 @@ public class NewAnimationController : MonoBehaviour
 
 
       
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(1f);
 
         if (rbfps.IsAir == true)
         {
