@@ -250,7 +250,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            cameraAnimator.SetBool("WallLeft", false);
+            cameraAnimator.SetBool("WallLeft", false);  
         }
         if (WallrunningRight)
         {           

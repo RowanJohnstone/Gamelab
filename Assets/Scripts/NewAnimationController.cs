@@ -62,7 +62,7 @@ public class NewAnimationController : MonoBehaviour
             animator.SetBool("Running", true);
         }
 
-        if (rbfps.IsAir == true && this.animator.GetCurrentAnimatorStateInfo(0).IsName("Walk to Run"))
+        if (rbfps.IsAir == true && this.animator.GetCurrentAnimatorStateInfo(0).IsName("Walk to Run") || animator.GetBool("Air2") == true)
         {
             print("air");
             animator.SetBool("Running", false);

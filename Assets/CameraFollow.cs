@@ -2,16 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+// You need to create an empty, attach this script to it, then parent your camera to that empty. After that just drag your char object to Public Transform player
+
+public class TestCamRotatanator5000 : MonoBehaviour
 {
-    public Transform follow;
-    //in blender remove head bobbing, enable x rotation in one object and y/z rotation in another
-    // Start is called before the first frame update
+
+
+
+
+    //   | CAMERA WILL MATCH ROTATION OF ANY OBJECT YOUR STICK IN HERE|
+    //   v                                                            v
+    public GameObject player;
+    //   ^                                                            ^
+    //   |                                                            |
+
   
 
-    // Update is called once per frame
-    void LateUpdate()
+    
+
+    void Start()
     {
-        transform.position = follow.position;
+        
     }
+
+    void Update()
+    {
+        
+        transform.position = player.transform.position;
+       
+
+    }
+
 }
