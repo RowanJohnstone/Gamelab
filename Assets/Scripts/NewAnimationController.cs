@@ -25,6 +25,7 @@ public class NewAnimationController : MonoBehaviour
     private Rigidbody rb;
     public bool idlestopper = false;
     public bool stop;
+    public bool roll;
     
 
 
@@ -139,6 +140,7 @@ public class NewAnimationController : MonoBehaviour
             animator.SetBool("Air", false);
             animator.SetBool("Jump", false);
             animator.SetBool("Hardland", false);
+            animator.SetBool("Roll", false);
         }
 
         //Slide Parameter
@@ -201,16 +203,33 @@ public class NewAnimationController : MonoBehaviour
             //_rigidbody.AddForce(Vector3.up * 10 * jumpHeight);
         }
 
+        if (rbfps.IsAir == true &&   Input.GetKeyDown("f")) // && velocity > 0.5f
+        {
+            roll = true;
+            StartCoroutine(Roll());
+            playerController.IsJummp = false;
+            // velocity -= Time.deltaTime * airDrag;
+            //_rigidbody.AddForce(Vector3.up * 10 * jumpHeight);
+        }
+
 
 
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Falling Idle 0") && rbfps.m_IsGrounded == true)
         {
-            animator.SetBool("Hardland", true);
-            print("ayy");
-            animator.SetBool("Air2", false);
+            if (roll == true)
+            {
+                animator.SetBool("Roll", true);
+                animator.SetBool("Air2", false);
+            }
 
-            rbfps.IsAir = false;
-            
+            else
+            {
+                animator.SetBool("Hardland", true);
+                print("ayy");
+                animator.SetBool("Air2", false);
+
+                rbfps.IsAir = false;
+            }
             
         }
 
@@ -220,14 +239,17 @@ public class NewAnimationController : MonoBehaviour
             idlestopper = false;
         }
 
-
-
-    }
         
 
+    }
 
 
-        IEnumerator falling()
+
+    
+
+
+
+    IEnumerator falling()
         {
 
 
@@ -246,10 +268,13 @@ public class NewAnimationController : MonoBehaviour
             animator.SetBool("Air2", false);
         }
 
-          
+        
+
+
+
     }
 
-   
+    
 
 
 
@@ -268,8 +293,20 @@ public class NewAnimationController : MonoBehaviour
 
 
 
-            internal static void SetTrigger(string v)
+
+
+
+
+
+    internal static void SetTrigger(string v)
     {
         throw new NotImplementedException();
+    }
+
+    IEnumerator Roll()
+    {
+        yield return new WaitForSeconds(1f);
+        roll = false;
+
     }
 }
