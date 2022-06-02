@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public DetectObs detectVaultObstruction; //checks if theres somthing in front of the object e.g walls that will not allow the player to vault
     public DetectObs detectClimbObject; //checks for climb object
     public DetectObs detectClimbObstruction; //checks if theres somthing in front of the object e.g walls that will not allow the player to climb
+    public DetectObs detectSkipObject; //checks for vault object
+    public DetectObs detectSkipObstruction; //checks if theres somthing in front of the object e.g walls that will not allow the player to vault
 
 
     public DetectObs DetectWallL; //detects for a wall on the left
@@ -49,6 +51,7 @@ public class PlayerController : MonoBehaviour
     public bool IsVault = false;
     public bool IsJummp;
     public bool climbing = false;
+    public bool CanSkip;
 
     public float VaultTime;
     public float VaultTime1; //slow vault
@@ -56,6 +59,9 @@ public class PlayerController : MonoBehaviour
     public Transform VaultEndPoint;
     public Transform VaultEndPoint2;
     public float VaultSpeedDecider = 125; //if above this speed, goes to fast vault
+
+    public float SkipTime;//fast vault
+    public Transform SkipEndPoint;
 
     float timeElapsed;
     float lerpDuration = 1;
@@ -114,8 +120,37 @@ public class PlayerController : MonoBehaviour
             rb.drag = drag_wallrun;
 
         }
-        //vault
-        if (detectVaultObject.Obstruction && !detectVaultObstruction.Obstruction && !CanVault && !IsParkour && !WallRunning
+
+        //skip
+        if (detectVaultObject.Obstruction && !detectSkipObstruction.Obstruction && !CanSkip && !IsParkour && !WallRunning
+            && (Input.GetKey(KeyCode.Space) || !rbfps.Grounded))
+        {
+            CanSkip = true;
+        }
+
+        if (CanSkip)
+            {
+            CanSkip = false;
+            rb.isKinematic = true;
+            print("skip");
+            RecordedMoveToPosition = SkipEndPoint.position; //move to low speed position
+            timeElapsed = 0.9f;
+
+            RecordedStartPosition = transform.position;
+            IsParkour = true;
+
+            chosenParkourMoveTime = SkipTime;
+
+
+        }
+
+
+
+
+
+
+            //vault
+            if (detectVaultObject.Obstruction && !detectVaultObstruction.Obstruction && !CanVault && !IsParkour && !WallRunning
             && (Input.GetKey(KeyCode.Space) || !rbfps.Grounded) && Input.GetAxisRaw("Vertical") > 0f)
         // if detects a vault object and there is no wall in front then player can pressing space or in air and pressing forward
         {
