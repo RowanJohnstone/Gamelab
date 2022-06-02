@@ -212,17 +212,6 @@ public class NewAnimationController : MonoBehaviour
             //_rigidbody.AddForce(Vector3.up * 10 * jumpHeight);
         }
 
-        if(playerController.WallrunningLeft == true)
-        {
-            animator.speed = 1f;
-            animator.SetBool("Wall Run L", true);
-
-        }
-
-        if (playerController.WallrunningLeft == false)
-        {
-            animator.SetBool("Wall Run L", false);
-        }
 
 
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Falling Idle 0") && rbfps.m_IsGrounded == true)
