@@ -26,7 +26,11 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 3724
+=======
+  controlID: 5219
+>>>>>>> parent of 65f69b8 (Wall Run Code)
 =======
   controlID: 5219
 >>>>>>> parent of 65f69b8 (Wall Run Code)
@@ -153,7 +157,11 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 3725
+=======
+  controlID: 5220
+>>>>>>> parent of 65f69b8 (Wall Run Code)
 =======
   controlID: 5220
 >>>>>>> parent of 65f69b8 (Wall Run Code)
@@ -186,7 +194,11 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 3726
+=======
+  controlID: 5221
+>>>>>>> parent of 65f69b8 (Wall Run Code)
 =======
   controlID: 5221
 >>>>>>> parent of 65f69b8 (Wall Run Code)
@@ -541,9 +553,15 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.30281648, y: 65.45564, z: -15.969767}
     speed: 2
     m_Value: {x: 0.30281648, y: 65.45564, z: -15.969767}
+=======
+    m_Target: {x: 1.6492493, y: 64.178925, z: -19.125097}
+    speed: 2
+    m_Value: {x: 1.6492493, y: 64.178925, z: -19.125097}
+>>>>>>> parent of 65f69b8 (Wall Run Code)
 =======
     m_Target: {x: 1.6492493, y: 64.178925, z: -19.125097}
     speed: 2
@@ -602,6 +620,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.15325317, y: -0.303068, z: 0.0494843, w: 0.93952936}
     speed: 2
     m_Value: {x: 0.15321481, y: -0.30299217, z: 0.049471915, w: 0.9392942}
@@ -609,6 +628,15 @@ MonoBehaviour:
     m_Target: 1.6248894
     speed: 2
     m_Value: 1.6248894
+=======
+    m_Target: {x: -0.033164915, y: -0.96579677, z: 0.15607832, w: -0.2056066}
+    speed: 2
+    m_Value: {x: -0.033156663, y: -0.96555644, z: 0.15603949, w: -0.20555542}
+  m_Size:
+    m_Target: 3.4793148
+    speed: 2
+    m_Value: 3.4793148
+>>>>>>> parent of 65f69b8 (Wall Run Code)
 =======
     m_Target: {x: -0.033164915, y: -0.96579677, z: 0.15607832, w: -0.2056066}
     speed: 2
@@ -789,6 +817,7 @@ MonoBehaviour:
   m_ListAreaState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: f2f4ffff
     m_LastClickedInstanceID: -2830
     m_HadKeyboardFocusLastEvent: 0
@@ -796,11 +825,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 65f69b8 (Wall Run Code)
+=======
+>>>>>>> parent of 65f69b8 (Wall Run Code)
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300003433030010670000e666000066090300ee0f030094210300bc23030062fe000054670000
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 65f69b8 (Wall Run Code)
+=======
 >>>>>>> parent of 65f69b8 (Wall Run Code)
 =======
 >>>>>>> parent of 65f69b8 (Wall Run Code)
@@ -829,7 +863,11 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 20.200012}
+=======
+    m_ScrollPosition: {x: 0, y: 51}
+>>>>>>> parent of 65f69b8 (Wall Run Code)
 =======
     m_ScrollPosition: {x: 0, y: 51}
 >>>>>>> parent of 65f69b8 (Wall Run Code)
@@ -929,7 +967,11 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: -2830
+=======
+  m_LastInspectedObjectInstanceID: -1
+>>>>>>> parent of 65f69b8 (Wall Run Code)
 =======
   m_LastInspectedObjectInstanceID: -1
 >>>>>>> parent of 65f69b8 (Wall Run Code)
