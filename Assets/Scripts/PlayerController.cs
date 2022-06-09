@@ -88,7 +88,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+       
+
 
         
 
@@ -116,7 +117,7 @@ public class PlayerController : MonoBehaviour
         }
         //vault
         if (detectVaultObject.Obstruction && !detectVaultObstruction.Obstruction && !CanVault && !IsParkour && !WallRunning
-            && (Input.GetKey(KeyCode.Space) || !rbfps.Grounded) && Input.GetAxisRaw("Vertical") > 0f)
+            && (Input.GetKey(KeyCode.Space)))
         // if detects a vault object and there is no wall in front then player can pressing space or in air and pressing forward
         {
             IsVault = true;
@@ -165,6 +166,8 @@ public class PlayerController : MonoBehaviour
            
 
             cameraAnimator.CrossFade("Vault",0.1f);
+
+
             
 
         }

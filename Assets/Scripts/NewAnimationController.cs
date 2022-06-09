@@ -26,9 +26,9 @@ public class NewAnimationController : MonoBehaviour
     public bool idlestopper = false;
     public bool stop;
     public bool roll;
-    
+    public DetectObs detectVaultObject;
 
-
+    private IEnumerator fallingCoroutine = null;
 
     void Start()
     {
@@ -129,12 +129,14 @@ public class NewAnimationController : MonoBehaviour
         }
 
 
-       
+        
+        
 
         if (rbfps.IsAir == true) 
         {
-            
-            StartCoroutine(falling());
+            fallingCoroutine = falling();
+
+            StartCoroutine(fallingCoroutine);
         }
 
         
@@ -142,12 +144,19 @@ public class NewAnimationController : MonoBehaviour
         if (rbfps.IsAir == false)
         {
             animator.speed = 1;
-            StopCoroutine(falling());
-            
+            if (fallingCoroutine != null)
+            {
+                StopCoroutine(fallingCoroutine);
+                fallingCoroutine = null;
+            }
+            idlestopper = false;
+            animator.SetBool("Air2", false);
             animator.SetBool("Air", false);
             animator.SetBool("Jump", false);
             animator.SetBool("Hardland", false);
             animator.SetBool("Roll", false);
+            animator.SetBool("runJump 0", false);
+            animator.SetBool("Vault2", false);
         }
 
         //Slide Parameter
@@ -168,15 +177,33 @@ public class NewAnimationController : MonoBehaviour
         if ((Input.GetKeyDown("space") && velocity < 0.5))
         {
             animator.SetBool("Jump", true);
-            print("kik");
             playerController.IsJummp = false;
             //velocity -= Time.deltaTime * airDrag;
             //_rigidbody.AddForce(Vector3.up * 10 * jumpHeight);
         }
 
+        if ((Input.GetKeyDown("space") && velocity > 0.5) && detectVaultObject.Obstruction == false)
+        {
+            animator.SetBool("runJump 0", true);
+            print("kik");
+            
+
+        }
+
+
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Jumping Up"))
             {
             animator.SetBool("Jump", false);
+        }
+
+        if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("mixamo_com"))
+        {
+            playerController.IsVault = false;
+            if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
+            {
+                animator.SetBool("Vault2", false);
+            }
+
         }
 
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Hard Landing"))
@@ -196,19 +223,15 @@ public class NewAnimationController : MonoBehaviour
 
         if (playerController.IsVault == true)
         {
-            Debug.Log("nob");
+            
             animator.speed = 1f;
-            animator.SetTrigger("Vault");
-            playerController.IsVault = false;
+            animator.SetBool("Vault2", true);
+            
+
+
         }
 
-        if (Input.GetKeyDown("q")) // && velocity > 0.5f
-        {
-            animator.SetTrigger("runJump");
-            playerController.IsJummp = false;
-            // velocity -= Time.deltaTime * airDrag;
-            //_rigidbody.AddForce(Vector3.up * 10 * jumpHeight);
-        }
+        
 
         if (rbfps.IsAir == true &&   Input.GetKeyDown("f")) // && velocity > 0.5f
         {
@@ -270,10 +293,9 @@ public class NewAnimationController : MonoBehaviour
     IEnumerator falling()
         {
 
-
-      
-        yield return new WaitForSeconds(1f);
-
+        yield return new WaitForSeconds(1.5f);
+        
+            
         if (rbfps.IsAir == true)
         {
             animator.speed = 1f;
@@ -284,12 +306,15 @@ public class NewAnimationController : MonoBehaviour
          else
         {
             animator.SetBool("Air2", false);
+            idlestopper = false;
+        
         }
 
-        
+        yield return idlestopper;
 
 
 
+        fallingCoroutine = null;
     }
 
     

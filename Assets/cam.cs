@@ -8,6 +8,8 @@ public class cam : MonoBehaviour
     private Transform follow;
     public Animator animator;
     public GameObject gameobject;
+    Quaternion one;
+    public Transform forward;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,10 +37,8 @@ public class cam : MonoBehaviour
         else
         {
             transform.position = follow.transform.position;
-            Vector3 euler = follow.transform.rotation.eulerAngles;
-            euler.x = 0;
-            euler.z = 0;
-            transform.rotation = Quaternion.Euler(euler);
+       
+            transform.rotation = Quaternion.Lerp(forward.rotation, follow.transform.rotation, 0.5f);
         }
     }
 }
