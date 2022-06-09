@@ -1,0 +1,367 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.14f1 (bcb93e5482d2) revision 12368190'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 65382 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Diana/University/Assigments/Year_2/Block_3/Game_Lab/Github_Project/Gamelab
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55268
+Successfully changed project path to: C:/Users/Diana/University/Assigments/Year_2/Block_3/Game_Lab/Github_Project/Gamelab
+C:/Users/Diana/University/Assigments/Year_2/Block_3/Game_Lab/Github_Project/Gamelab
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 65.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.14f1 (bcb93e5482d2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diana/University/Assigments/Year_2/Block_3/Game_Lab/Github_Project/Gamelab/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro RTX 4000 (ID=0x1eb6)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   30.0.14.7298
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004020 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (575ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004753 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Diana\University\Assigments\Year_2\Block_3\Game_Lab\Github_Project\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Diana\University\Assigments\Year_2\Block_3\Game_Lab\Github_Project\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 4122.
+Memory consumption went from 148.6 MB to 147.3 MB.
+Total: 4.577200 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.238300 ms MarkObjects: 3.743800 ms  DeleteObjects: 0.285100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2375793.639882 seconds.
+  path: Assets/Models
+  artifactKey: Guid(80c5e2be44028104187682763de2769d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(80c5e2be44028104187682763de2769d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbda12e476dda93ef229e54314ec8ed') in 0.015387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102412 seconds.
+  path: Assets/Models/building_03_15_2022.fbx
+  artifactKey: Guid(dcf6c98a28df9504a9edfb2034635f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/building_03_15_2022.fbx using Guid(dcf6c98a28df9504a9edfb2034635f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d216bcb7f2caf60ecc724192dace26') in 0.253893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.203637 seconds.
+  path: Assets/Models/cyberpunk_column.fbx
+  artifactKey: Guid(394d6c12b71884248a5189ea2287ea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cyberpunk_column.fbx using Guid(394d6c12b71884248a5189ea2287ea9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5c1b28964d9456303131521f466b0b') in 0.052701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.457219 seconds.
+  path: Assets/Models/column.fbx
+  artifactKey: Guid(b12a585ff9fb9af49b9779956b21f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/column.fbx using Guid(b12a585ff9fb9af49b9779956b21f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db16b0c1fcd18e2ccef4934a46184958') in 0.153902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.956721 seconds.
+  path: Assets/Models/fountain.fbx
+  artifactKey: Guid(edb45c2c83fb094468c806b47e287c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fountain.fbx using Guid(edb45c2c83fb094468c806b47e287c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fd8f17438734950fdc2b56fe93d8ef') in 0.039395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.583843 seconds.
+  path: Assets/Models/roman_wall_ruin_ver_2.fbx
+  artifactKey: Guid(9e4ae2f0d6975774a9a0fe2300541afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/roman_wall_ruin_ver_2.fbx using Guid(9e4ae2f0d6975774a9a0fe2300541afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc71dc0d9dafd5054b100dccab48dbd') in 0.025196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.751510 seconds.
+  path: Assets/Models/modern_roman_building_2_version_2_new.fbx
+  artifactKey: Guid(6f7420d44d5a448428925bb86f26b45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modern_roman_building_2_version_2_new.fbx using Guid(6f7420d44d5a448428925bb86f26b45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be1704454e6524f0e52600903cf3f26') in 0.168666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.029848 seconds.
+  path: Assets/Models/modern_roman_building_2_version_1_1.fbx
+  artifactKey: Guid(970d620a9f05cdb45b96def0c4749789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modern_roman_building_2_version_1_1.fbx using Guid(970d620a9f05cdb45b96def0c4749789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df95065a17732dc1e9fc52f7b178267b') in 0.133231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.541342 seconds.
+  path: Assets/Models/modern_roman_building_1_fixed_0.fbx
+  artifactKey: Guid(540775be28982114297b32b8f534d1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modern_roman_building_1_fixed_0.fbx using Guid(540775be28982114297b32b8f534d1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99561f489b699c0fd1f5506ea228d235') in 0.214654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.074421 seconds.
+  path: Assets/Models/modern_building_4.fbx
+  artifactKey: Guid(9c11e3a9f7542a24c993cacfd90a7aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modern_building_4.fbx using Guid(9c11e3a9f7542a24c993cacfd90a7aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361210fc85203798386d46b47d000df2') in 0.089067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.164859 seconds.
+  path: Assets/Models/modern_building_1_version_1.fbx
+  artifactKey: Guid(606f2d068c3429d4b86a47122f1324b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/modern_building_1_version_1.fbx using Guid(606f2d068c3429d4b86a47122f1324b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d37e0b1f52f619a1ce0a264efb2809') in 0.060428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.961955 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.006587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.790832 seconds.
+  path: Assets/Meshes_Buildings
+  artifactKey: Guid(464289323f854814ea43c3114a803f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings using Guid(464289323f854814ea43c3114a803f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beae0e2efcd8088cedf33b1038a4173a') in 0.006994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.112240 seconds.
+  path: Assets/Materials_Buildings
+  artifactKey: Guid(e5e82c708f72e4d4c9ae92b442350dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Buildings using Guid(e5e82c708f72e4d4c9ae92b442350dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2945ec210b70af8c9bf5e174766c6aa2') in 0.006608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.628247 seconds.
+  path: Assets/Materials_Buildings/windows.mat
+  artifactKey: Guid(e6736d388f5026043a68bac08efa224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Buildings/windows.mat using Guid(e6736d388f5026043a68bac08efa224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f50d3cfa395657b39aa8aab291b55d') in 0.019208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.105227 seconds.
+  path: Assets/Materials_Buildings/roman_wall.mat
+  artifactKey: Guid(aa5e63de91e06de458a599fa1cd82865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Buildings/roman_wall.mat using Guid(aa5e63de91e06de458a599fa1cd82865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368cb4386b3705ce2aba482bab719b48') in 0.016515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.673100 seconds.
+  path: Assets/Meshes_Buildings/modern_roman_2_2_1/modern_roman_building_2_version_2_windows_BaseColor.png
+  artifactKey: Guid(a274117b19ae6c240818f92566b1c9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_roman_2_2_1/modern_roman_building_2_version_2_windows_BaseColor.png using Guid(a274117b19ae6c240818f92566b1c9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391f16b32af5d31b3abfca3e11664975') in 0.038069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Meshes_Buildings/modern_roman_2_2_1/modern_roman_building_2_version_2_windows_Height.png
+  artifactKey: Guid(30660b45aab107d43879e950a1d9ea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_roman_2_2_1/modern_roman_building_2_version_2_windows_Height.png using Guid(30660b45aab107d43879e950a1d9ea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefd261b566aa20831fdf3552c9fa095') in 0.016747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Meshes_Buildings/modern_roman_2_2_1/modern_roman_building_2_version_2_windows_Normal.png
+  artifactKey: Guid(c0e2dbf8c5a3d964a8e6ab734b3b1f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_roman_2_2_1/modern_roman_building_2_version_2_windows_Normal.png using Guid(c0e2dbf8c5a3d964a8e6ab734b3b1f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21198206922a040b20095f96c955c415') in 0.018419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.089098 seconds.
+  path: Assets/Meshes_Buildings/roman_wall/roman_wall_ruin_Material.001_BaseColor.png
+  artifactKey: Guid(3413b680ddc05764f88d9f4840de0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/roman_wall/roman_wall_ruin_Material.001_BaseColor.png using Guid(3413b680ddc05764f88d9f4840de0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75823a412b205909980834d3e206583') in 0.030244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Meshes_Buildings/roman_wall/roman_wall_ruin_Material.001_Metallic.png
+  artifactKey: Guid(a6dade9db50f8db4199870d4af1c38cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/roman_wall/roman_wall_ruin_Material.001_Metallic.png using Guid(a6dade9db50f8db4199870d4af1c38cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e01478ee17f68e7b24b6a8738552c5') in 0.026406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.897217 seconds.
+  path: Assets/Materials_Buildings/fountain.mat
+  artifactKey: Guid(e5f19100f2374624a98068336f754773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Buildings/fountain.mat using Guid(e5f19100f2374624a98068336f754773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a70f4b5b5d4dffb87fea38e85de95d9') in 0.009032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.729716 seconds.
+  path: Assets/Materials_Buildings/modern_roman_1/base.mat
+  artifactKey: Guid(029483c55f8c52446ad70e54a6a794b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Buildings/modern_roman_1/base.mat using Guid(029483c55f8c52446ad70e54a6a794b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b6d68cdc7d3ffd154b61b2c256e509') in 0.015741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.495821 seconds.
+  path: Assets/Materials_Buildings/modern_roman_1/windows.mat
+  artifactKey: Guid(6cc66bde2e9a3b04ea00473aee00ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Buildings/modern_roman_1/windows.mat using Guid(6cc66bde2e9a3b04ea00473aee00ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3dc2b77ec05069ba1d1cd85b0cd1e9') in 0.009463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.801556 seconds.
+  path: Assets/Meshes_Buildings/modern_building_1/modern_building_1_version_1_building_BaseColor.png
+  artifactKey: Guid(4b0319dc90235764eaffed12b01a255b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_building_1/modern_building_1_version_1_building_BaseColor.png using Guid(4b0319dc90235764eaffed12b01a255b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee41f08f4e8520642becbb8d74b48de5') in 0.016506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Meshes_Buildings/modern_building_1/modern_building_1_version_1_building_Roughness.png
+  artifactKey: Guid(c25793e1adf4d3641948afa70cc31d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_building_1/modern_building_1_version_1_building_Roughness.png using Guid(c25793e1adf4d3641948afa70cc31d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d3965c747d2843f78860acd81b227d') in 0.018458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshes_Buildings/modern_building_1/modern_building_1_version_1_building_Height.png
+  artifactKey: Guid(176712aaffe8e814db4ad9948f49a068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_building_1/modern_building_1_version_1_building_Height.png using Guid(176712aaffe8e814db4ad9948f49a068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20937202671f48a1d4c99961fc6a55da') in 0.016183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.556952 seconds.
+  path: Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_building_Emissive.png
+  artifactKey: Guid(959342359e3d7a1449cb94f8294b263c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_building_Emissive.png using Guid(959342359e3d7a1449cb94f8294b263c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ed84e7a615810fa65ee36de34b27d6') in 0.022416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_windows_Emissive.png
+  artifactKey: Guid(16edd17d0fa01774787213a690813a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_windows_Emissive.png using Guid(16edd17d0fa01774787213a690813a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f71580ed0b56b0656ed5b96c045fda1') in 0.025959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_windows_Metallic.png
+  artifactKey: Guid(6afd5e7ecea03b844a5708c857917f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_windows_Metallic.png using Guid(6afd5e7ecea03b844a5708c857917f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc6e721f02e08fb26309cdc7a543eb0') in 0.016289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_building_Metallic.png
+  artifactKey: Guid(213fd74d3469fa840b9e1ca35af9fe1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_building_Metallic.png using Guid(213fd74d3469fa840b9e1ca35af9fe1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18243b4f279972bf3beee267ca3506e0') in 0.015768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_building_Normal.png
+  artifactKey: Guid(0c9aa5427799bc4498df26b222d2d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/modern_roman_1/modern_roman_building_1_building_Normal.png using Guid(0c9aa5427799bc4498df26b222d2d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81c57c511fdcaddd9f1e1194a95d590') in 0.037873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.542158 seconds.
+  path: Assets/Meshes_Buildings/fountain/fountain_Material.005_Emissive.png
+  artifactKey: Guid(04332b1184ff91e488075461e3f87f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/fountain/fountain_Material.005_Emissive.png using Guid(04332b1184ff91e488075461e3f87f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0335a2f419fafbb3f23eebbc0d5c761d') in 0.017877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshes_Buildings/fountain/fountain_Material.005_Metallic.png
+  artifactKey: Guid(0911f158a404b7c4f9ff79a28cfe636a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes_Buildings/fountain/fountain_Material.005_Metallic.png using Guid(0911f158a404b7c4f9ff79a28cfe636a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8315620d3db8c6cfdfadd3f0a848ec08') in 0.029649 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
