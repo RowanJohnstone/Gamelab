@@ -46,9 +46,10 @@ public class NewAnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //speedo = rbfps.speedo;
-        //speedo = speedo / 100f;
-        //print(speedo);
+        speedo = rbfps.movementSettings.ForwardSpeed;
+        speedo = speedo / 110.0f;
+        
+        
         //Animation Inputs & Parameters
 
         bool forwardPressed = Input.GetKey("w");
@@ -80,6 +81,11 @@ public class NewAnimationController : MonoBehaviour
             animator.SetBool("Running", false);
             animator.speed = 0.3f;
             animator.speed = 0.3f;
+        }
+
+        else
+        {
+            animator.speed = speedo;
         }
 
         //Backwards Walk
@@ -119,7 +125,7 @@ public class NewAnimationController : MonoBehaviour
 
         if (playerController.climbing == true)
         {
-            animator.speed = 1f;
+            animator.speed = speedo;
             animator.SetBool("Climb", true);
             animator.SetBool("Vault2", false);
             playerController.climbing = false;
@@ -153,7 +159,7 @@ public class NewAnimationController : MonoBehaviour
 
         if (rbfps.IsAir == false)
         {
-            animator.speed = 1;
+            animator.speed = speedo;
             if (fallingCoroutine != null)
             {
                 StopCoroutine(fallingCoroutine);
@@ -240,8 +246,8 @@ public class NewAnimationController : MonoBehaviour
 
         if (playerController.IsVault == true)
         {
-            
-            animator.speed = 1f;
+
+            animator.speed = speedo;
             animator.SetBool("Vault2", true);
             if (fallingCoroutine != null)
             {
@@ -270,8 +276,10 @@ public class NewAnimationController : MonoBehaviour
 
         if(playerController.WallrunningLeft == true)
         {
-            animator.speed = 1f;
-            animator.SetBool("Wall Run L", true);
+            animator.speed = speedo;
+
+            // animator.SetBool("Wall Run L", true);
+
             animator.SetBool("Air2", false);
             animator.SetBool("Air", false);
             animator.SetBool("Jump", false);
@@ -297,8 +305,10 @@ public class NewAnimationController : MonoBehaviour
 
         if (playerController.WallrunningRight == true)
         {
-            animator.speed = 1f;
-            animator.SetBool("Wall Run R", true);
+            animator.speed = speedo;
+
+            //animator.SetBool("Wall Run R", true);
+
             animator.SetBool("Air2", false);
             animator.SetBool("Air", false);
             animator.SetBool("Jump", false);
@@ -366,7 +376,7 @@ public class NewAnimationController : MonoBehaviour
             
         if (rbfps.IsAir == true)
         {
-            animator.speed = 1f;
+            animator.speed = speedo;
             idlestopper = true;
             
         }

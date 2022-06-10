@@ -12534,7 +12534,7 @@ MonoBehaviour:
   player: {fileID: 1292816348}
   counter: 1
   speedboost: 20
-  speeddecay: 12
+  speeddecay: 13
   speeddecay2: 18
   speedo: 100
   airboost: 5
@@ -23206,6 +23206,7 @@ MonoBehaviour:
   stop: 0
   roll: 0
   detectVaultObject: {fileID: 1890252371}
+  speedo: 0
 --- !u!137 &2533005257432790211
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
