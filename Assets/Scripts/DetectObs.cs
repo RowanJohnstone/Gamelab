@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityStandardAssets.Characters.FirstPerson;
 using UnityEngine;
 
 public class DetectObs : MonoBehaviour
@@ -9,14 +8,11 @@ public class DetectObs : MonoBehaviour
     public bool Obstruction;
     public GameObject Object;
     private Collider colnow;
-    public Rigidbody rb;
-    private RigidbodyFirstPersonController rbfps;
-    PlayerController playerController;
     void OnTriggerStay(Collider col)
     {
         if (ObjectTagName != "" && !Obstruction)
         {
-            if (col.GetComponent<CustomTag>())
+            if (col.GetComponent<CustomTag>()) 
             {
                 if (col.GetComponent<CustomTag>().IsEnabled)
                 {
@@ -25,39 +21,29 @@ public class DetectObs : MonoBehaviour
                         Obstruction = true;
                         Object = col.gameObject;
                         colnow = col;
-                        if (col.GetComponent<CustomTag>().HasTag("Slope")) //FIGURING OUT SLOPE CHECK
-                        {
-
-                            
-                           
-                            
-                        }
-                        
                     }
-                    
                 }
-
             }
+            
+        }
 
 
-            if (ObjectTagName == "" && !Obstruction)
+        if (ObjectTagName == "" && !Obstruction)
+        {
+            if (col != null && !col.isTrigger)
             {
-                if (col != null && !col.isTrigger)
-                {
-                    Obstruction = true;
-                    colnow = col;
-                }
-
+                Obstruction = true;
+                colnow = col;
             }
-
-
 
         }
+
+
+      
     }
 
     private void Update()
     {
-
         
         if(Object == null || !colnow.enabled)
         {
@@ -68,7 +54,6 @@ public class DetectObs : MonoBehaviour
             if (!Object.activeInHierarchy)
             {
                 Obstruction = false;
-                
             }
         }
     }
@@ -84,7 +69,6 @@ public class DetectObs : MonoBehaviour
         if (col == colnow)
         {
             Obstruction = false;
-
         }
 
     }

@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -8,33 +7,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (CapsuleCollider))]
     public class RigidbodyFirstPersonController : MonoBehaviour
     {
-        public bool isParkour;
-        public bool IsAir = false;
-
-
-      
-        PlayerController playerController;
-        public GameObject player;
-        public int counter = 1;
-        public float speedboost; 
-        public float speeddecay; //how much does speed decay by
-        public float speeddecay2; //speed decays by this much if going high speed
-        public float speedo = 1.0f; //speed decays to this 
-        public float airboost = 1.0f;
-        public float airdecay = 0.7f;
-        public float airdecay2;
-        public float airspeedo = 20.0f; //air speed decays to this 
-        public int timerint; //timer
-
-        public PostProcessVolume volume;
-
-        public Vignette vignetteLayer;
-
-        
-
-
-
-
         [Serializable]
         public class MovementSettings
         {
@@ -43,12 +15,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             public float StrafeSpeed = 4.0f;    // Speed when walking sideways
             public float SpeedInAir = 8.0f;   // Speed when onair
             public float JumpForce = 30f;
-            
-
-            
-
-
-
 
             [HideInInspector] public float CurrentTargetSpeed = 8f;
             
@@ -97,7 +63,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private Rigidbody m_RigidBody;
         private CapsuleCollider m_Capsule;
         private float m_YRotation;
-        public bool  m_IsGrounded;
+        private bool  m_IsGrounded;
 
 
         public Vector3 Velocity
@@ -115,71 +81,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void Awake()
         {
-
-            volume.profile.TryGetSettings(out vignetteLayer);
-
-            vignetteLayer.intensity.value = 0.0f;
-
+            
             canrotate = true;
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
             mouseLook.Init (transform, cam.transform);
-
-
-            playerController = player.GetComponent<PlayerController>();
-            InvokeRepeating("Timer", 1.0f, 1.0f);
         }
 
 
-        void Update()
+        private void Update()
         {
-
-            if (detectGround.Obstruction)
-            {
-                m_IsGrounded = true;
-                IsAir = false;
-
-
-            }
-            else
-            {
-                m_IsGrounded = false;
-
-                IsAir = true;
-
-            }
-        
-
-        isParkour = playerController.IsParkour;
-            if (isParkour == true)
-            {
-                counter++;
-                if (counter == 2)
-                {
-                    //speedboost
-                    movementSettings.ForwardSpeed += speedboost;
-                    movementSettings.SpeedInAir += airboost;
-                   
-                }
-            }
-            if (Wallrunning == true)
-            {
-                counter++;
-                if (counter == 2)
-                {
-                    //wallrunning speedbost
-                    movementSettings.ForwardSpeed += speedboost;
-                    movementSettings.SpeedInAir += airboost;
-                }
-            }
-
-            if (isParkour == false && Wallrunning == false)
-            {
-                counter = 1;
-                
-                
-            }
-
             relativevelocity = transform.InverseTransformDirection(m_RigidBody.velocity);
             if (m_IsGrounded)
             {
@@ -187,51 +98,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     NormalJump();
-                    
                 }
 
             }
 
-        }
-
-        void Timer()
-        {
-            if ((movementSettings.ForwardSpeed > speedo) && movementSettings.ForwardSpeed > 150.0f) //if over high speed, speed decays more to stop people from storing up too much boost at once
-            {
-               // vignetteLayer.intensity.value = 0.8f;   
-
-                movementSettings.ForwardSpeed -= speeddecay2;
-                
-             
-                    movementSettings.SpeedInAir -= airdecay2;
-                
-            }
-
-            else if ((movementSettings.ForwardSpeed > speedo) && movementSettings.ForwardSpeed > 115.0f ) //just to make sure it decays to the right amount 
-            {
-               // vignetteLayer.intensity.value = 0.5f;
-
-                movementSettings.ForwardSpeed -= speeddecay;
-                if (movementSettings.SpeedInAir >= airspeedo)
-                {
-                    movementSettings.SpeedInAir -= airdecay;
-                }
-            }
-            else if ((movementSettings.ForwardSpeed > speedo) && movementSettings.ForwardSpeed < 115.1f) //the usual decay
-            {
-                speeddecay = 12.0f;
-                
-                movementSettings.ForwardSpeed = 100.0f;
-            }
-
-            else if ((movementSettings.SpeedInAir >= airspeedo) && ( movementSettings.SpeedInAir >= 30.0f)) 
-                {
-                    movementSettings.SpeedInAir -= airboost;
-                }
-            else if ((movementSettings.SpeedInAir >= airspeedo) && (movementSettings.SpeedInAir <= 29.0f))
-            {
-                movementSettings.SpeedInAir = airspeedo;
-            }
         }
 
 
@@ -271,8 +141,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             //grounded
             if ((Mathf.Abs(input.x) > float.Epsilon || Mathf.Abs(input.y) > float.Epsilon) && m_IsGrounded && !Wallrunning)
             {
-                
-
                 if (Input.GetAxisRaw("Vertical") > 0.3f)
                 {
                     m_RigidBody.AddRelativeForce(0, 0, Time.deltaTime * 1000f * movementSettings.ForwardSpeed * Mathf.Abs(inputVector.z));
@@ -294,15 +162,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
             //inair
             if ((Mathf.Abs(input.x) > float.Epsilon || Mathf.Abs(input.y) > float.Epsilon) && !m_IsGrounded  && !Wallrunning)
             {
-                
-
                 if (Input.GetAxisRaw("Vertical") > 0.3f)
                 {
                     m_RigidBody.AddRelativeForce(0, 0, Time.deltaTime * 1000f * movementSettings.SpeedInAir * Mathf.Abs(inputVector.z));
                 }
                 if (Input.GetAxisRaw("Vertical") < -0.3f)
                 {
-                        
                     m_RigidBody.AddRelativeForce(0, 0, Time.deltaTime * 1000f * -movementSettings.SpeedInAir * Mathf.Abs(inputVector.z));
                 }
                 if (Input.GetAxisRaw("Horizontal") > 0.5f)
@@ -315,7 +180,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
 
             }
-            
+
      
         }
 
@@ -367,15 +232,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
           if(detectGround.Obstruction)
             {
                 m_IsGrounded = true;
-                IsAir = false;
-
-                
             }
           else
             {
                 m_IsGrounded = false;
-                
-                IsAir = true;
 
             }
         }

@@ -1,16 +1,9 @@
-﻿using System;
-using System.Drawing;
-using System.Text;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 public class PlayerController : MonoBehaviour
 {
-
-
-    
-
     public float drag_grounded;
     public float drag_inair;
 
@@ -24,7 +17,6 @@ public class PlayerController : MonoBehaviour
     public DetectObs DetectWallR; //detects for a wall on the right
 
     public Animator cameraAnimator;
-   
 
     public float WallRunUpForce;
     public float WallRunUpForce_DecreaseRate;
@@ -38,40 +30,21 @@ public class PlayerController : MonoBehaviour
     public bool WallrunningLeft;
     public bool WallrunningRight;
     private bool canwallrun; // ensure that player can only wallrun once before needing to hit the ground again, can be modified for double wallruns
-
-    public bool hardlander = false;
+    
     public bool IsParkour;
     private float t_parkour;
     private float chosenParkourMoveTime;
 
-    public bool isSlope;
-    public bool CanVault;
-    public bool IsVault = false;
-    public bool IsJummp;
-    public bool climbing = false;
-
-    public float VaultTime;
-    public float VaultTime1; //slow vault
-    public float VaultTime2;//fast vault
+    private bool CanVault;
+    public float VaultTime; //how long the vault takes
     public Transform VaultEndPoint;
-    public Transform VaultEndPoint2;
-    public float VaultSpeedDecider = 125; //if above this speed, goes to fast vault
 
-    float timeElapsed;
-    float lerpDuration = 1;
-    float startValue = 70;
-    float endValue = 100;
-    float valueToLerp;
-
-    public Camera myCamera;
-
-    public bool CanClimb;
+    private bool CanClimb;
     public float ClimbTime; //how long the vault takes
     public Transform ClimbEndPoint;
 
-    
-    private RigidbodyFirstPersonController rbfps; 
-    public Rigidbody rb;
+    private RigidbodyFirstPersonController rbfps;
+    private Rigidbody rb;
     private Vector3 RecordedMoveToPosition; //the position of the vault end point in world space to move the player to
     private Vector3 RecordedStartPosition; // position of player right before vault
     // Start is called before the first frame update
@@ -79,15 +52,12 @@ public class PlayerController : MonoBehaviour
     {
         rbfps = GetComponent<RigidbodyFirstPersonController>();
         rb = GetComponent<Rigidbody>();
-        myCamera.fieldOfView = 70f;
-        
-
-
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
        
 
 
@@ -99,6 +69,8 @@ public class PlayerController : MonoBehaviour
             myCamera.fieldOfView -= 1;
         }
 
+=======
+>>>>>>> Dev
         if (rbfps.Grounded)
         {
             rb.drag = drag_grounded;
@@ -108,9 +80,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.drag = drag_inair;
         }
-        
-
-            if (WallRunning)
+        if(WallRunning)
         {
             rb.drag = drag_wallrun;
 
@@ -120,61 +90,38 @@ public class PlayerController : MonoBehaviour
             && (Input.GetKey(KeyCode.Space)))
         // if detects a vault object and there is no wall in front then player can pressing space or in air and pressing forward
         {
+<<<<<<< HEAD
             
+=======
+>>>>>>> Dev
             CanVault = true;
-            
-           // StartCoroutine(Vaulting());
-            
-
-
         }
 
         if (CanVault)
         {
-            
             CanVault = false; // so this is only called once
-            
             rb.isKinematic = true; //ensure physics do not interrupt the vault
-            if (rbfps.movementSettings.ForwardSpeed <= VaultSpeedDecider) //If going high speed 
-            {
-
-
-                
-                RecordedMoveToPosition = VaultEndPoint.position; //move to low speed position
-                VaultTime = VaultTime1;
-                timeElapsed = 0.9f;
-                
-
-            }
-
-            
-
-            
-
-            else if (rbfps.movementSettings.ForwardSpeed >= VaultSpeedDecider) //if going low speed
-            {
-                RecordedMoveToPosition = VaultEndPoint2.position; //move to high speed location
-                VaultTime = VaultTime2;
-                
-            }
-
-            
+            RecordedMoveToPosition = VaultEndPoint.position;
             RecordedStartPosition = transform.position;
             IsParkour = true;
+<<<<<<< HEAD
             IsVault = true;
 
+=======
+>>>>>>> Dev
             chosenParkourMoveTime = VaultTime;
-           
 
+<<<<<<< HEAD
             
 
 
             
 
+=======
+            cameraAnimator.CrossFade("Vault",0.1f);
+>>>>>>> Dev
         }
 
-        
-        
         //climb
         if (detectClimbObject.Obstruction && !detectClimbObstruction.Obstruction && !CanClimb && !IsParkour && !WallRunning
             && (Input.GetKey(KeyCode.Space) || !rbfps.Grounded) && Input.GetAxisRaw("Vertical") > 0f)
@@ -184,7 +131,6 @@ public class PlayerController : MonoBehaviour
 
         if (CanClimb)
         {
-            climbing = true;
             CanClimb = false; // so this is only called once
             rb.isKinematic = true; //ensure physics do not interrupt the vault
             RecordedMoveToPosition = ClimbEndPoint.position;
@@ -254,7 +200,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            cameraAnimator.SetBool("WallLeft", false);  
+            cameraAnimator.SetBool("WallLeft", false);
         }
         if (WallrunningRight)
         {           
@@ -286,48 +232,5 @@ public class PlayerController : MonoBehaviour
 
 
     }
-
-    void OnCollisionEnter(Collision collision)
-    {
-
-
-        
-
-
-    }
-
-
-    void OnCollisionStay(Collision collision)
-    {
-        if (collision.collider.tag == "Slope")
-        {
-            
-            rb.useGravity = false;
-            CanVault = false;
-            
-        }
-
-       
-       
-    }
-
-    void OnCollisionExit(Collision collision)
-    {
-        rb.useGravity = true;
-        CanVault = false;
-        
-    }
-
-   /* IEnumerator Vaulting()
-    {
-        IsVault = true;
-        yield return new WaitForSeconds(0.1f);
-        IsVault = false;
-        yield return null;
-        
-    }
-    */
-    
-
-
+  
 }
