@@ -15,7 +15,7 @@ C:/Users/badma/Documents/GitHub/GameLab - Dreameam Studios/Gamelab
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50982
+56972
 Successfully changed project path to: C:/Users/badma/Documents/GitHub/GameLab - Dreameam Studios/Gamelab
 C:/Users/badma/Documents/GitHub/GameLab - Dreameam Studios/Gamelab
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/badma/Documents/GitHub/GameLab - Dreameam Studios/Gamelab
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 97.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.14f1 (bcb93e5482d2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,177 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.031646 seconds.
+Registered in 0.008282 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 357.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.309 seconds
+- Completed reload, in  0.793 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2311ms)
-		BeginReloadAssembly (340ms)
+	ReloadAssembly (794ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1480ms)
-			LoadAssemblies (327ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (416ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (145ms)
-			SetupLoadedEditorAssemblies (703ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (312ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (358ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027798 seconds.
+Registered in 0.009250 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.890 seconds
+- Completed reload, in  1.934 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2893ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (1935ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (2457ms)
-			LoadAssemblies (177ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1636ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1790ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1113ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (1564ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (47ms)
-				EditorAssembliesLoaded (1ms)
+				ProcessInitializeOnLoadAttributes (967ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3674 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 4128.
 Memory consumption went from 148.4 MB to 147.1 MB.
-Total: 12.804800 ms (FindLiveObjects: 0.765600 ms CreateObjectMapping: 0.372900 ms MarkObjects: 10.831600 ms  DeleteObjects: 0.830900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5296.539313 seconds.
-  path: Assets/Animations/ybot@Falling To Roll.fbx
-  artifactKey: Guid(fa96d8b9d1621ae49bcbff6d38cb0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/ybot@Falling To Roll.fbx using Guid(fa96d8b9d1621ae49bcbff6d38cb0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75609deaf277383667dcd38ec3436345') in 0.671913 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.031123 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <5c8f1172115149e593ecad20a23a7816>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  6.377 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6379ms)
-		BeginReloadAssembly (603ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (26ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (162ms)
-		EndReloadAssembly (5204ms)
-			LoadAssemblies (445ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1496ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (296ms)
-			SetupLoadedEditorAssemblies (2641ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (71ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (349ms)
-				ProcessInitializeOnLoadAttributes (2007ms)
-				ProcessInitializeOnLoadMethodAttributes (150ms)
-				AfterProcessingInitializeOnLoad (57ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (39ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4173.
-Memory consumption went from 149.9 MB to 148.6 MB.
-Total: 16.184000 ms (FindLiveObjects: 0.891100 ms CreateObjectMapping: 0.684600 ms MarkObjects: 13.978700 ms  DeleteObjects: 0.625700 ms)
+Total: 5.717700 ms (FindLiveObjects: 0.423800 ms CreateObjectMapping: 0.337500 ms MarkObjects: 4.561900 ms  DeleteObjects: 0.392900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -248,699 +160,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.038391 seconds.
+Registered in 0.007747 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5c8f1172115149e593ecad20a23a7816>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  6.446 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6449ms)
-		BeginReloadAssembly (602ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (149ms)
-		EndReloadAssembly (5228ms)
-			LoadAssemblies (432ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1456ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (241ms)
-			SetupLoadedEditorAssemblies (2762ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (86ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (395ms)
-				ProcessInitializeOnLoadAttributes (2068ms)
-				ProcessInitializeOnLoadMethodAttributes (146ms)
-				AfterProcessingInitializeOnLoad (60ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (61ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4176.
-Memory consumption went from 149.9 MB to 148.7 MB.
-Total: 16.937400 ms (FindLiveObjects: 0.804700 ms CreateObjectMapping: 1.057700 ms MarkObjects: 13.904600 ms  DeleteObjects: 1.165700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.032367 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5c8f1172115149e593ecad20a23a7816>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  5.202 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5205ms)
-		BeginReloadAssembly (572ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (144ms)
-		EndReloadAssembly (4126ms)
-			LoadAssemblies (384ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1248ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (203ms)
-			SetupLoadedEditorAssemblies (2062ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (65ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (349ms)
-				ProcessInitializeOnLoadAttributes (1467ms)
-				ProcessInitializeOnLoadMethodAttributes (132ms)
-				AfterProcessingInitializeOnLoad (44ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (58ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4179.
-Memory consumption went from 149.9 MB to 148.7 MB.
-Total: 5.319500 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 0.225400 ms MarkObjects: 4.504400 ms  DeleteObjects: 0.240700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.031634 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5c8f1172115149e593ecad20a23a7816>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  6.544 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6548ms)
-		BeginReloadAssembly (527ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (37ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (134ms)
-		EndReloadAssembly (5389ms)
-			LoadAssemblies (371ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1444ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (236ms)
-			SetupLoadedEditorAssemblies (2914ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (91ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (442ms)
-				ProcessInitializeOnLoadAttributes (2139ms)
-				ProcessInitializeOnLoadMethodAttributes (154ms)
-				AfterProcessingInitializeOnLoad (80ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (69ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4182.
-Memory consumption went from 149.9 MB to 148.7 MB.
-Total: 14.149900 ms (FindLiveObjects: 0.943200 ms CreateObjectMapping: 0.568500 ms MarkObjects: 12.029000 ms  DeleteObjects: 0.605200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.037104 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.210 seconds
+- Completed reload, in  1.194 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4213ms)
-		BeginReloadAssembly (519ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (22ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (129ms)
-		EndReloadAssembly (3169ms)
-			LoadAssemblies (370ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1084ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (1573ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (234ms)
-				ProcessInitializeOnLoadAttributes (1159ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (32ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4185.
-Memory consumption went from 149.9 MB to 148.7 MB.
-Total: 25.511100 ms (FindLiveObjects: 0.832600 ms CreateObjectMapping: 0.612000 ms MarkObjects: 23.210000 ms  DeleteObjects: 0.852300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.037301 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5c8f1172115149e593ecad20a23a7816>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  4.040 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4043ms)
-		BeginReloadAssembly (469ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (127ms)
-		EndReloadAssembly (3096ms)
-			LoadAssemblies (334ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (832ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (182ms)
-			SetupLoadedEditorAssemblies (1507ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (315ms)
-				ProcessInitializeOnLoadAttributes (973ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (47ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (60ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4188.
-Memory consumption went from 150.0 MB to 148.7 MB.
-Total: 4.589700 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.222700 ms MarkObjects: 3.780600 ms  DeleteObjects: 0.242300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.034369 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5c8f1172115149e593ecad20a23a7816>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  4.644 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4648ms)
-		BeginReloadAssembly (572ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (140ms)
-		EndReloadAssembly (3533ms)
-			LoadAssemblies (408ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1121ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (186ms)
-			SetupLoadedEditorAssemblies (1464ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (351ms)
-				ProcessInitializeOnLoadAttributes (899ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (44ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (94ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4191.
-Memory consumption went from 150.0 MB to 148.7 MB.
-Total: 11.725000 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.232500 ms MarkObjects: 10.600000 ms  DeleteObjects: 0.565900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.031749 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.543 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6547ms)
-		BeginReloadAssembly (567ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (5226ms)
-			LoadAssemblies (416ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1407ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (251ms)
-			SetupLoadedEditorAssemblies (2802ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (83ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (417ms)
-				ProcessInitializeOnLoadAttributes (2100ms)
-				ProcessInitializeOnLoadMethodAttributes (145ms)
-				AfterProcessingInitializeOnLoad (51ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (72ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4194.
-Memory consumption went from 150.0 MB to 148.7 MB.
-Total: 16.639500 ms (FindLiveObjects: 1.021400 ms CreateObjectMapping: 0.807500 ms MarkObjects: 14.132800 ms  DeleteObjects: 0.673700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.034042 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <feaaa6313e32495d9f259b175aa6b597>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5c8f1172115149e593ecad20a23a7816>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  6.564 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6568ms)
-		BeginReloadAssembly (596ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (153ms)
-		EndReloadAssembly (5418ms)
-			LoadAssemblies (413ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1433ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (232ms)
-			SetupLoadedEditorAssemblies (2918ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (85ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (416ms)
-				ProcessInitializeOnLoadAttributes (2175ms)
-				ProcessInitializeOnLoadMethodAttributes (168ms)
-				AfterProcessingInitializeOnLoad (66ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (87ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4197.
-Memory consumption went from 150.0 MB to 148.7 MB.
-Total: 6.054200 ms (FindLiveObjects: 1.537600 ms CreateObjectMapping: 0.382100 ms MarkObjects: 3.771500 ms  DeleteObjects: 0.361400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006829 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.744 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1745ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1458ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (437ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (741ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (550ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4200.
-Memory consumption went from 150.0 MB to 148.8 MB.
-Total: 6.568300 ms (FindLiveObjects: 0.570300 ms CreateObjectMapping: 0.802800 ms MarkObjects: 4.725400 ms  DeleteObjects: 0.468600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008758 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.650 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1651ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1359ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (700ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (483ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (523ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4203.
-Memory consumption went from 150.0 MB to 148.8 MB.
-Total: 6.478800 ms (FindLiveObjects: 0.593300 ms CreateObjectMapping: 0.457500 ms MarkObjects: 4.530900 ms  DeleteObjects: 0.894600 ms)
+Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4131.
+Memory consumption went from 145.0 MB to 143.8 MB.
+Total: 4.002300 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.200000 ms MarkObjects: 3.320900 ms  DeleteObjects: 0.196900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -953,440 +214,114 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3196.814380 seconds.
-  path: Assets/Roman_Character/Roman_Character/Leather_1.mat
-  artifactKey: Guid(ab5e204973f185944a70e2d29443f36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Leather_1.mat using Guid(ab5e204973f185944a70e2d29443f36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8acb984b72ccd718269f29d73d1d3f') in 0.375499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.397871 seconds.
-  path: Assets/Roman_Character/Roman_Character/Leather_3.mat
-  artifactKey: Guid(de8a657872daf9e429cb2abd438fc3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Leather_3.mat using Guid(de8a657872daf9e429cb2abd438fc3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7aee1c033bafc44e729b6c2dc94857') in 0.044416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_left_AlbedoTransparency.png
-  artifactKey: Guid(23c8a629fafdf5645845b029a6e277c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_left_AlbedoTransparency.png using Guid(23c8a629fafdf5645845b029a6e277c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eae2dc67aa338058a8da76805b3d8f') in 0.064180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Left_arm_plating_AO.png
-  artifactKey: Guid(feb2536b463e55e489021c0b63403a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Left_arm_plating_AO.png using Guid(feb2536b463e55e489021c0b63403a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515b5d86f56af9c531fe07918a735d0b') in 0.023686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Roman_Character/Roman_Character/Leather_chest.mat
-  artifactKey: Guid(66611b5d635d9934184a1294030bbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Leather_chest.mat using Guid(66611b5d635d9934184a1294030bbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af279e6895cfc7f7bb2ed80f67bda58') in 0.045185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Roman_Character/Roman_Character/Leather_8.mat
-  artifactKey: Guid(2e52e9a8d035e744998d740247152b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Leather_8.mat using Guid(2e52e9a8d035e744998d740247152b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3738de04d4290b5fce3af2fe05d75bb0') in 0.031308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Roman_Character/Roman_Character/Leather_14.mat
-  artifactKey: Guid(0bc6644089ea07a4dafdcf008c125a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Leather_14.mat using Guid(0bc6644089ea07a4dafdcf008c125a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec02a19e0a0008e61729ca45b712465') in 0.029119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Character_AlbedoTransparency.png
-  artifactKey: Guid(630e9ef00d295df499aef103179d17a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Character_AlbedoTransparency.png using Guid(630e9ef00d295df499aef103179d17a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23180ca6b6f78a53886092548885fbd') in 0.019742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Left_arm_plating_Normal.png
-  artifactKey: Guid(ca20f99857f54d6489f57586065aca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Left_arm_plating_Normal.png using Guid(ca20f99857f54d6489f57586065aca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231650b1ef3645b9758321d992ec00ef') in 0.026132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_left_MetallicSmoothness.png
-  artifactKey: Guid(cf4ebdb9d78dfae4d8354db1cfd0c6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_left_MetallicSmoothness.png using Guid(cf4ebdb9d78dfae4d8354db1cfd0c6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd4421e1d62c82d52d0c7db476e6e74') in 0.020157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Roman_Character/Roman_Character/Right_arm_leather.mat
-  artifactKey: Guid(e88fda1f02e4d184cb736f38ae6b70ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Right_arm_leather.mat using Guid(e88fda1f02e4d184cb736f38ae6b70ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96078bc66696d2ab355f88f67a65520c') in 0.318004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Roman_Character/Roman_Character/Leather_13.mat
-  artifactKey: Guid(0c517e94ea1a4d64e873af0f85cd2481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Leather_13.mat using Guid(0c517e94ea1a4d64e873af0f85cd2481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cabccb4438a6e192238ccf0d6b0082') in 0.025424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Roman_Character/Roman_Character/Legs_plating_right.mat
-  artifactKey: Guid(e70076cba0c2f4e4b9ad8e26cc7b588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Legs_plating_right.mat using Guid(e70076cba0c2f4e4b9ad8e26cc7b588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95cfac732ba97c78cae9af330185d31') in 0.140520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.513185 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_right_AlbedoTransparency.png
-  artifactKey: Guid(2ad79aeae97994a479aba0b4701d5c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_right_AlbedoTransparency.png using Guid(2ad79aeae97994a479aba0b4701d5c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466b94b4f43335e6f423db9e0c227a8c') in 0.021771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_left_AlbedoTransparency.png
-  artifactKey: Guid(e8552371955ed6d48b92d79b04739bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_left_AlbedoTransparency.png using Guid(e8552371955ed6d48b92d79b04739bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f2d438c4f73698865daea410ca100b') in 0.017940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_Emission.png
-  artifactKey: Guid(541a822deee91ab4fb8bd33bf649ca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_Emission.png using Guid(541a822deee91ab4fb8bd33bf649ca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043d2ae23db20a1f218e92f87a8e401c') in 0.016322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_AO.png
-  artifactKey: Guid(cbb37c7b8e38f58408f57ec58757ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_AO.png using Guid(cbb37c7b8e38f58408f57ec58757ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002eb5d8550630c55663ec03fd1a929f') in 0.017296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_MetallicSmoothness.png
-  artifactKey: Guid(9f5896e18c4fbc348b78e41d5ff1aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_MetallicSmoothness.png using Guid(9f5896e18c4fbc348b78e41d5ff1aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bf959bb30b76b0e009973cfd69743a') in 0.019592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_buckle_AlbedoTransparency.png
-  artifactKey: Guid(f277f684bd5d2c543aaadc63106a1193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_buckle_AlbedoTransparency.png using Guid(f277f684bd5d2c543aaadc63106a1193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b04ca7193c4e9f6957a0d254483693c') in 0.018436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_right_Normal.png
-  artifactKey: Guid(7fb59c9fc0ae10143adc387641aa580f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_right_Normal.png using Guid(7fb59c9fc0ae10143adc387641aa580f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b65b69d7322bd0ec5f26fa10f87e41') in 0.020615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_AO.png
-  artifactKey: Guid(4cf5e04c01fa1284786fcbe41397d3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_AO.png using Guid(4cf5e04c01fa1284786fcbe41397d3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc67afb63ea1d0e71606e00c9360d6a') in 0.016862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_Normal.png
-  artifactKey: Guid(b5767233e6baed34cbfaeea5af03d20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_Normal.png using Guid(b5767233e6baed34cbfaeea5af03d20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0ee6600261041287b3aa64b930e09d') in 0.019272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_AlbedoTransparency.png
-  artifactKey: Guid(12a376f5b4e114640b980b69a09fe3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_Left_AlbedoTransparency.png using Guid(12a376f5b4e114640b980b69a09fe3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc3c7bedbd8938f0256bc00584721ea') in 0.015958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_right_Emissive.png
-  artifactKey: Guid(52f64662ba064eb4c80cd5e575a9c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoulder_plating_right_Emissive.png using Guid(52f64662ba064eb4c80cd5e575a9c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f01cc2d3ca9e7e0bb8ec0aa6ebc0dcb') in 0.016622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_right_MetallicSmoothness.png
-  artifactKey: Guid(f9d43cfdc372c2f4a9468a36720df2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_right_MetallicSmoothness.png using Guid(f9d43cfdc372c2f4a9468a36720df2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc9db1fc42f41ff098141f6976edc08') in 0.016946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_right_Normal.png
-  artifactKey: Guid(6278a2208ae651b44ab1f92aac11fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_right_Normal.png using Guid(6278a2208ae651b44ab1f92aac11fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af4a62cdd0e9fa17fd26adf16340fb3') in 0.017513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_AlbedoTransparency.png
-  artifactKey: Guid(519bce1c7fae0b845b5ceabc37c4b4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_AlbedoTransparency.png using Guid(519bce1c7fae0b845b5ceabc37c4b4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de006d4d45bf4fec1ba9f65e566a8b1') in 0.017088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_left_AO.png
-  artifactKey: Guid(0fe2010ae02b0f94eac18c8b4424f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_left_AO.png using Guid(0fe2010ae02b0f94eac18c8b4424f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af478ff2c0f7736153d5054753e060f') in 0.027391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_left_Normal.png
-  artifactKey: Guid(f4366377d36385f429a8d2e542e7bdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_left_Normal.png using Guid(f4366377d36385f429a8d2e542e7bdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e374831f216e6bc32d4588196fffe12') in 0.019477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_right_MetallicSmoothness.png
-  artifactKey: Guid(aa22cf7e05e30914aa5a177e456aafe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Shoe_right_MetallicSmoothness.png using Guid(aa22cf7e05e30914aa5a177e456aafe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced23f175f3b81858d8bdefd3a0c22fc') in 0.017064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_right_AO.png
-  artifactKey: Guid(ca1cd92cd027fa04c9e4c6a1a1869a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Legs_plating_right_AO.png using Guid(ca1cd92cd027fa04c9e4c6a1a1869a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39fc8c888de8434b1a5af77698fec9d') in 0.016620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.332605 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_buckle_Emission.png
-  artifactKey: Guid(ffff8c6db69ae6a47ad0765aa409aff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_buckle_Emission.png using Guid(ffff8c6db69ae6a47ad0765aa409aff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e686f419b018d56cf39354356983bb9') in 0.018711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_1_Normal.png
-  artifactKey: Guid(7302ec5b7e357784f81acbaae7382814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_1_Normal.png using Guid(7302ec5b7e357784f81acbaae7382814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5864a445a34b6664dc1a147ce9ddce') in 0.021788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_1_MetallicSmoothness.png
-  artifactKey: Guid(1dec6e68cb644d846b6dc1736ef4564f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_1_MetallicSmoothness.png using Guid(1dec6e68cb644d846b6dc1736ef4564f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5667910e96e5c3e9a2b7ae8c9115e8') in 0.017913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_1_AlbedoTransparency.png
-  artifactKey: Guid(9ad0a74ca7fcf294f85c267b3e28f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_1_AlbedoTransparency.png using Guid(9ad0a74ca7fcf294f85c267b3e28f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b6b08839c5a8e8c655662ad701fe0b') in 0.015126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_Normal.png
-  artifactKey: Guid(3149089f31035f74bbbfa4a1418dc7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_Normal.png using Guid(3149089f31035f74bbbfa4a1418dc7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073e6cdee6ac35f0dbba35d3b71d074f') in 0.020409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_buckle_MetallicSmoothness.png
-  artifactKey: Guid(6b5d46da832c4e2479e4729f41494990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_belt_buckle_MetallicSmoothness.png using Guid(6b5d46da832c4e2479e4729f41494990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c773c35b6e04b0616dd0f7290456bc6') in 0.021252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.372040 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_2_MetallicSmoothness.png
-  artifactKey: Guid(16ca09fabb40392408b3b7d60e322bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_2_MetallicSmoothness.png using Guid(16ca09fabb40392408b3b7d60e322bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8eada7abb51d71c66bbe9f90a847b5') in 0.019525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_2_Normal.png
-  artifactKey: Guid(a8a15667c9464dc4a8d2d9e822ffc169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_2_Normal.png using Guid(a8a15667c9464dc4a8d2d9e822ffc169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296d7b4a658522d8819937ec58ec096c') in 0.020044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_7_Normal.png
-  artifactKey: Guid(56c59d338004bbe4b9f9e746ed62cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_7_Normal.png using Guid(56c59d338004bbe4b9f9e746ed62cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b0edc6c0e5ce52290325842179e5e6') in 0.020268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_7_AlbedoTransparency.png
-  artifactKey: Guid(8a3766d1927029e46b364ae0af118537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_7_AlbedoTransparency.png using Guid(8a3766d1927029e46b364ae0af118537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f00b91a99f14467f3897ebbb4bd275e') in 0.014645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_3_AlbedoTransparency.png
-  artifactKey: Guid(db6f73ef829e0ee478dcb50305734f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_3_AlbedoTransparency.png using Guid(db6f73ef829e0ee478dcb50305734f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf5402375a24e4195dc20684d094e4a') in 0.014274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_5_AlbedoTransparency.png
-  artifactKey: Guid(a5552d9400d927146b7c99b8840d83ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_5_AlbedoTransparency.png using Guid(a5552d9400d927146b7c99b8840d83ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4db0ea5c68cdb120eee7e6da8ef5f26') in 0.018211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_3_MetallicSmoothness.png
-  artifactKey: Guid(eda4a659bcf1e8a41b2facbea0235f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_3_MetallicSmoothness.png using Guid(eda4a659bcf1e8a41b2facbea0235f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17886e423819684263b1988faaa8066') in 0.020994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_4_Normal.png
-  artifactKey: Guid(22ee87d86a341c446a1de54ff90d55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_4_Normal.png using Guid(22ee87d86a341c446a1de54ff90d55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85396da1a580eba5127c9d0400f5914a') in 0.020667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_7_MetallicSmoothness.png
-  artifactKey: Guid(21c49ac202fc1a94584a820259cad805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_7_MetallicSmoothness.png using Guid(21c49ac202fc1a94584a820259cad805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9850fd3e5364375c6dc9fefc668dbd') in 0.019074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_5_AO.png
-  artifactKey: Guid(65a18aad3acac6f429fd89df9469094f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_5_AO.png using Guid(65a18aad3acac6f429fd89df9469094f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32d750a4e51d7643d685167cc42da0e') in 0.016807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_5_Normal.png
-  artifactKey: Guid(de24485db3b47f645a92416f9f90bd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_5_Normal.png using Guid(de24485db3b47f645a92416f9f90bd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f600576e6ae8abf4ca06c08eafafa9') in 0.021325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_5_MetallicSmoothness.png
-  artifactKey: Guid(762645585d0998c4dbef371595b21424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_5_MetallicSmoothness.png using Guid(762645585d0998c4dbef371595b21424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895d51b9f86250132041d2af413f7670') in 0.018074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.183394 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_8_MetallicSmoothness.png
-  artifactKey: Guid(67859ccf2b0874f48b4ec0fd4afcef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_8_MetallicSmoothness.png using Guid(67859ccf2b0874f48b4ec0fd4afcef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5361810fb6694e6999b203bc9ec61c42') in 0.019648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_10_Normal.png
-  artifactKey: Guid(f8c433109bdd5ee41a839e3e2535d7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_10_Normal.png using Guid(f8c433109bdd5ee41a839e3e2535d7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4931489e86a0cae372f25e820113ac') in 0.020689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_10_AlbedoTransparency.png
-  artifactKey: Guid(419546dc44e18124f8445c2b08376021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_10_AlbedoTransparency.png using Guid(419546dc44e18124f8445c2b08376021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3b529c480c888a10919deb06afcc82') in 0.015727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_9_AlbedoTransparency.png
-  artifactKey: Guid(1ee282a04f9c002468b21702d5f87ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_9_AlbedoTransparency.png using Guid(1ee282a04f9c002468b21702d5f87ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32826e1530a72a864f29c7fccef78dab') in 0.016325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_11_AlbedoTransparency.png
-  artifactKey: Guid(42e53e98c7d04e34688f1b675700a4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_11_AlbedoTransparency.png using Guid(42e53e98c7d04e34688f1b675700a4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddc246394be195016f24a0b99708914') in 0.015526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_8_Normal.png
-  artifactKey: Guid(5e68077341e45e04f9bed5f15e4b0cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_8_Normal.png using Guid(5e68077341e45e04f9bed5f15e4b0cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d460e78b5927b6a0ebd11b276880e9') in 0.020396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.267548 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_11_MetallicSmoothness.png
-  artifactKey: Guid(dcd5bab9fe451bc4890682b05c0de4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_11_MetallicSmoothness.png using Guid(dcd5bab9fe451bc4890682b05c0de4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e67cb743dceb962046f0ab4f16e9e3') in 0.016844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_12_AO.png
-  artifactKey: Guid(7ee42a0fba145e140875c8995db8ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_12_AO.png using Guid(7ee42a0fba145e140875c8995db8ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441282aff2c0ed55839911e4f703cdbe') in 0.021089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_12_AlbedoTransparency.png
-  artifactKey: Guid(a7204ceda5d75cf4199e7185acd34807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_12_AlbedoTransparency.png using Guid(a7204ceda5d75cf4199e7185acd34807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbbbccc33521bb87a5ae700acf260e2') in 0.018188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_13_Normal.png
-  artifactKey: Guid(6e67d4cf6618af8409405b69f22854dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_13_Normal.png using Guid(6e67d4cf6618af8409405b69f22854dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050c747468d005fda5f70396ee38b980') in 0.018798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_16_AlbedoTransparency.png
-  artifactKey: Guid(f87d9cb8abd623640aabb991b7b08d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_16_AlbedoTransparency.png using Guid(f87d9cb8abd623640aabb991b7b08d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243f3ce4c7e91acf9dc9f43136517372') in 0.017261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_14_Normal.png
-  artifactKey: Guid(7462b7abdc141ac439ef7454623086bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_14_Normal.png using Guid(7462b7abdc141ac439ef7454623086bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f761ed9d0bd79d930c73f29ceaddc9') in 0.018689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_16_Normal.png
-  artifactKey: Guid(704c75093516bf04782282aecefbad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_16_Normal.png using Guid(704c75093516bf04782282aecefbad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b32a111536a6f14b91aeebf0ae8764a') in 0.020372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_15_AO.png
-  artifactKey: Guid(e7f188d92992a90458c969860dee4417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_15_AO.png using Guid(e7f188d92992a90458c969860dee4417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceee82eab07f4bac74af119c70013c2') in 0.017844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_16_AO.png
-  artifactKey: Guid(15a452f9f9845dd4e87bdcd1a83cfdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_16_AO.png using Guid(15a452f9f9845dd4e87bdcd1a83cfdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5084d0239719f7012ec921fc0ce235a5') in 0.019426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_14_AO.png
-  artifactKey: Guid(008a9c202a0da8b41b43c589ec9dcff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_14_AO.png using Guid(008a9c202a0da8b41b43c589ec9dcff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef66c1dadebe6122d21d2f9c14715c37') in 0.017950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_12_Normal.png
-  artifactKey: Guid(25cefa5f7f0577c4ba332f1470a624a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_12_Normal.png using Guid(25cefa5f7f0577c4ba332f1470a624a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5e7a36df6faa3ac3780506d9327ed8') in 0.019024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_13_AlbedoTransparency.png
-  artifactKey: Guid(359b1467c2447d04e9f7a3fc40e465f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Skirt_plating_leather_13_AlbedoTransparency.png using Guid(359b1467c2447d04e9f7a3fc40e465f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d45debe96f2c86686241667aa39ff8') in 0.015856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.121875 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Torso_leather_AlbedoTransparency.png
-  artifactKey: Guid(036286bd01f34fc46b5cfc84b11fd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Torso_leather_AlbedoTransparency.png using Guid(036286bd01f34fc46b5cfc84b11fd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6b89fdad89819534ba4a494be8edbe') in 0.020396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Roman_Character/Roman_Character/Shoulder_right.mat
-  artifactKey: Guid(b401c286fda7f0c4fb266364f0c7267c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Shoulder_right.mat using Guid(b401c286fda7f0c4fb266364f0c7267c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83edb5112a0c23c9f636e481aadd304a') in 0.035813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Torso_leather_MetallicSmoothness.png
-  artifactKey: Guid(bd7733ff6013da04db2be5f8f12471ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Torso_leather_MetallicSmoothness.png using Guid(bd7733ff6013da04db2be5f8f12471ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13aacf9f2462de67a578bb1f858703d') in 0.018295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Torso_leather_Normal.png
-  artifactKey: Guid(185dd12888b2b804fa4e30cffd304c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Roman_Character_biggus_dickus_CORRECT ONE_Torso_leather_Normal.png using Guid(185dd12888b2b804fa4e30cffd304c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc707002ac60770211f8c90c7c8c92c') in 0.020176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Roman_Character/Roman_Character/Skirt_plating_belt.mat
-  artifactKey: Guid(32487d41483d4084191e86d635ac9723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Skirt_plating_belt.mat using Guid(32487d41483d4084191e86d635ac9723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5e9e232393ceb821362c10c023becf') in 0.027384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Roman_Character/Roman_Character/Shoulder_left.mat
-  artifactKey: Guid(bd77012a8161cbc41ba37f4017c16289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roman_Character/Roman_Character/Shoulder_left.mat using Guid(bd77012a8161cbc41ba37f4017c16289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4ad8694a509789e137e67301c6823b') in 0.026675 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007770 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4134.
+Memory consumption went from 145.0 MB to 143.8 MB.
+Total: 3.391000 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.186700 ms MarkObjects: 2.727600 ms  DeleteObjects: 0.197500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1150ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (878ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4137.
+Memory consumption went from 145.0 MB to 143.8 MB.
+Total: 4.542600 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.367300 ms MarkObjects: 3.578900 ms  DeleteObjects: 0.314100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

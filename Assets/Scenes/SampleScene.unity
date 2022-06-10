@@ -28123,6 +28123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roman_Character_biggus_dickus_CORRECT_ONE
       objectReference: {fileID: 0}
+    - target: {fileID: 2869032633058563281, guid: 85ba48ee220f7fb419d6db9c8e019420, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3214173024110890603, guid: 85ba48ee220f7fb419d6db9c8e019420, type: 3}
       propertyPath: m_RootOrder
       value: 3

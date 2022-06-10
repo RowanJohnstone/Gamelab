@@ -120,7 +120,7 @@ public class PlayerController : MonoBehaviour
             && (Input.GetKey(KeyCode.Space)))
         // if detects a vault object and there is no wall in front then player can pressing space or in air and pressing forward
         {
-            IsVault = true;
+            
             CanVault = true;
             
            // StartCoroutine(Vaulting());
@@ -161,11 +161,12 @@ public class PlayerController : MonoBehaviour
             
             RecordedStartPosition = transform.position;
             IsParkour = true;
-            
+            IsVault = true;
+
             chosenParkourMoveTime = VaultTime;
            
 
-            cameraAnimator.CrossFade("Vault",0.1f);
+            
 
 
             
@@ -191,7 +192,7 @@ public class PlayerController : MonoBehaviour
             IsParkour = true;
             chosenParkourMoveTime = ClimbTime;
 
-            cameraAnimator.CrossFade("Climb",0.1f);
+            
         }
 
 

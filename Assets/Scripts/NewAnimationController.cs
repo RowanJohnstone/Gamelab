@@ -27,6 +27,7 @@ public class NewAnimationController : MonoBehaviour
     public bool stop;
     public bool roll;
     public DetectObs detectVaultObject;
+    public float speedo;
 
     private IEnumerator fallingCoroutine = null;
 
@@ -45,7 +46,9 @@ public class NewAnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //speedo = rbfps.speedo;
+        //speedo = speedo / 100f;
+        //print(speedo);
         //Animation Inputs & Parameters
 
         bool forwardPressed = Input.GetKey("w");
@@ -118,7 +121,14 @@ public class NewAnimationController : MonoBehaviour
         {
             animator.speed = 1f;
             animator.SetBool("Climb", true);
+            animator.SetBool("Vault2", false);
             playerController.climbing = false;
+            if (fallingCoroutine != null)
+            {
+                StopCoroutine(fallingCoroutine);
+                fallingCoroutine = null;
+            }
+
         }
 
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Braced Hang To Crouch"))
@@ -198,11 +208,18 @@ public class NewAnimationController : MonoBehaviour
 
         if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("mixamo_com"))
         {
+            if (fallingCoroutine != null)
+            {
+                StopCoroutine(fallingCoroutine);
+                fallingCoroutine = null;
+            }
+
             playerController.IsVault = false;
             if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
             {
                 animator.SetBool("Vault2", false);
             }
+
 
         }
 
@@ -226,7 +243,11 @@ public class NewAnimationController : MonoBehaviour
             
             animator.speed = 1f;
             animator.SetBool("Vault2", true);
-            
+            if (fallingCoroutine != null)
+            {
+                StopCoroutine(fallingCoroutine);
+                fallingCoroutine = null;
+            }
 
 
         }
@@ -238,6 +259,11 @@ public class NewAnimationController : MonoBehaviour
             roll = true;
             StartCoroutine(Roll());
             playerController.IsJummp = false;
+            if (fallingCoroutine != null)
+            {
+                StopCoroutine(fallingCoroutine);
+                fallingCoroutine = null;
+            }
             // velocity -= Time.deltaTime * airDrag;
             //_rigidbody.AddForce(Vector3.up * 10 * jumpHeight);
         }
@@ -246,12 +272,54 @@ public class NewAnimationController : MonoBehaviour
         {
             animator.speed = 1f;
             animator.SetBool("Wall Run L", true);
+            animator.SetBool("Air2", false);
+            animator.SetBool("Air", false);
+            animator.SetBool("Jump", false);
+            animator.SetBool("Hardland", false);
+            animator.SetBool("Roll", false);
+            animator.SetBool("runJump 0", false);
+            animator.SetBool("Vault2", false);
+            if (fallingCoroutine != null)
+            {
+                StopCoroutine(fallingCoroutine);
+                fallingCoroutine = null;
+            }
+
 
         }
 
         if (playerController.WallrunningLeft == false)
         {
             animator.SetBool("Wall Run L", false);
+            
+            
+        }
+
+        if (playerController.WallrunningRight == true)
+        {
+            animator.speed = 1f;
+            animator.SetBool("Wall Run R", true);
+            animator.SetBool("Air2", false);
+            animator.SetBool("Air", false);
+            animator.SetBool("Jump", false);
+            animator.SetBool("Hardland", false);
+            animator.SetBool("Roll", false);
+            animator.SetBool("runJump 0", false);
+            animator.SetBool("Vault2", false);
+            if (fallingCoroutine != null)
+            {
+                StopCoroutine(fallingCoroutine);
+                fallingCoroutine = null;
+            }
+
+
+        }
+
+        if (playerController.WallrunningRight == false)
+        {
+            animator.SetBool("Wall Run R", false);
+
+
         }
 
 
@@ -274,7 +342,7 @@ public class NewAnimationController : MonoBehaviour
             
         }
 
-        if (idlestopper == true && this.animator.GetCurrentAnimatorStateInfo(0).IsName("Jumping up") == false)
+        if (idlestopper == true && this.animator.GetCurrentAnimatorStateInfo(0).IsName("Jumping up") == false && velocity > 1f)
         {
             animator.SetBool("Air2", true);
             idlestopper = false;
@@ -293,7 +361,7 @@ public class NewAnimationController : MonoBehaviour
     IEnumerator falling()
         {
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2.0f);
         
             
         if (rbfps.IsAir == true)

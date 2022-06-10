@@ -38,7 +38,8 @@ public class cam : MonoBehaviour
         {
             transform.position = follow.transform.position;
        
-            transform.rotation = Quaternion.Lerp(forward.rotation, follow.transform.rotation, 0.5f);
+            transform.rotation = Quaternion.Lerp(forward.rotation, follow.transform.rotation, 0.2f);
+            
         }
     }
 }
