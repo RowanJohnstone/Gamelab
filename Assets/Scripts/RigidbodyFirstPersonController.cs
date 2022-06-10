@@ -7,7 +7,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (CapsuleCollider))]
     public class RigidbodyFirstPersonController : MonoBehaviour
     {
-        [Serializable]
+        public bool IsAir = false;
         public class MovementSettings
         {
             public float ForwardSpeed = 8.0f;   // Speed when walking forward
@@ -15,11 +15,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             public float StrafeSpeed = 4.0f;    // Speed when walking sideways
             public float SpeedInAir = 8.0f;   // Speed when onair
             public float JumpForce = 30f;
-
+            
             [HideInInspector] public float CurrentTargetSpeed = 8f;
             
 #if !MOBILE_INPUT
-            private bool m_Running;
+            public bool m_Running;
 #endif
 
             public void UpdateDesiredTargetSpeed(Vector2 input)
@@ -60,10 +60,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 
 
-        private Rigidbody m_RigidBody;
-        private CapsuleCollider m_Capsule;
-        private float m_YRotation;
-        private bool  m_IsGrounded;
+        public Rigidbody m_RigidBody;
+        public CapsuleCollider m_Capsule;
+        public float m_YRotation;
+        public bool  m_IsGrounded;
 
 
         public Vector3 Velocity
@@ -79,7 +79,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         
 
 
-        private void Awake()
+        public void Awake()
         {
             
             canrotate = true;
@@ -89,7 +89,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
 
 
-        private void Update()
+        public void Update()
         {
             relativevelocity = transform.InverseTransformDirection(m_RigidBody.velocity);
             if (m_IsGrounded)
@@ -105,7 +105,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
 
 
-        private void LateUpdate()
+        public void LateUpdate()
         {
             if (canrotate)
             {
@@ -128,7 +128,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             mouseLook.CamGoBackAll(transform, cam.transform);
 
         }
-        private void FixedUpdate()
+        public void FixedUpdate()
         {
             GroundCheck();
             Vector2 input = GetInput();
@@ -199,7 +199,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
       
 
 
-        private Vector2 GetInput()
+        public Vector2 GetInput()
         {
             
             Vector2 input = new Vector2
@@ -212,7 +212,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
 
 
-        private void RotateView()
+        public void RotateView()
         {
             //avoids the mouse looking if the game is effectively paused
             if (Mathf.Abs(Time.timeScale) < float.Epsilon) return;
@@ -227,17 +227,21 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 
         /// sphere cast down just beyond the bottom of the capsule to see if the capsule is colliding round the bottom
-        private void GroundCheck()
+        public void GroundCheck()
         {
           if(detectGround.Obstruction)
             {
                 m_IsGrounded = true;
+                IsAir = false;
+           
+                
             }
           else
             {
                 m_IsGrounded = false;
+                IsAir = true;
 
-            }
+    }
         }
     }
 }
