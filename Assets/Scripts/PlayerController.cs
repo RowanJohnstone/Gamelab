@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
     {
         rbfps = GetComponent<RigidbodyFirstPersonController>();
         rb = GetComponent<Rigidbody>();
-        myCamera.fieldOfView = 70f;
+        myCamera.fieldOfView = 90f;
 
 
 

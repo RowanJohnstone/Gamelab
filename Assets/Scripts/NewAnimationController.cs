@@ -46,8 +46,9 @@ public class NewAnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speedo = rbfps.movementSettings.ForwardSpeed;
-        speedo = speedo / 110.0f;
+        //speedo = rbfps.movementSettings.ForwardSpeed;
+        //speedo = speedo / 110.0f;
+        speedo = 1f;
         
         
         //Animation Inputs & Parameters
