@@ -15,7 +15,7 @@ C:/Users/badma/Documents/GitHub/GameLab - Dreameam Studios/Gamelab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65399
+52361
 Successfully changed project path to: C:/Users/badma/Documents/GitHub/GameLab - Dreameam Studios/Gamelab
 C:/Users/badma/Documents/GitHub/GameLab - Dreameam Studios/Gamelab
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/badma/Documents/GitHub/GameLab - Dreameam Studios/Gamelab
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 92.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 146.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.14f1 (bcb93e5482d2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,115 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006761 seconds.
+Registered in 0.007263 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  0.765 seconds
 Domain Reload Profiling:
-	ReloadAssembly (737ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (766ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (532ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (108ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (339ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
+				RefreshPlugins (114ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027339 seconds.
+Registered in 0.008377 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\badma\Documents\GitHub\GameLab - Dreameam Studios\Gamelab\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <feaaa6313e32495d9f259b175aa6b597>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <feaaa6313e32495d9f259b175aa6b597>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <feaaa6313e32495d9f259b175aa6b597>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <feaaa6313e32495d9f259b175aa6b597>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <5c8f1172115149e593ecad20a23a7816>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  2.330 seconds
+- Completed reload, in  2.284 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2332ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (2284ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1887ms)
-			LoadAssemblies (134ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1972ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
+			SetupTypeCache (335ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1240ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1396ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (1076ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (1034ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3674 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 4129.
-Memory consumption went from 149.1 MB to 147.8 MB.
-Total: 4.150100 ms (FindLiveObjects: 0.455600 ms CreateObjectMapping: 0.367500 ms MarkObjects: 3.027200 ms  DeleteObjects: 0.298300 ms)
+Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.9 MB). Loaded Objects now: 5529.
+Memory consumption went from 205.4 MB to 203.5 MB.
+Total: 4.969100 ms (FindLiveObjects: 0.451200 ms CreateObjectMapping: 0.402200 ms MarkObjects: 3.588000 ms  DeleteObjects: 0.526200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,3 +183,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2274.622519 seconds.
+  path: Assets/Devs/modern_roman_building_2_version_1_1.fbx
+  artifactKey: Guid(931bb16a501e32a45a2f9b6c56f90e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/modern_roman_building_2_version_1_1.fbx using Guid(931bb16a501e32a45a2f9b6c56f90e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f53400f8c295cc8935295e3eaec5cf') in 0.286349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Devs/modern_building_1_version_1.fbx
+  artifactKey: Guid(de592fc16470d8a4d903b4f0c1ff7d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/modern_building_1_version_1.fbx using Guid(de592fc16470d8a4d903b4f0c1ff7d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e4cd19644de02042a4badbefcfe88e') in 0.063424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Devs/cyberpunk_column.fbx
+  artifactKey: Guid(4e624f5cde5af264ba44242c37cede3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/cyberpunk_column.fbx using Guid(4e624f5cde5af264ba44242c37cede3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4519e438194b6b04e758dcc8a0f77e96') in 0.052247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.546777 seconds.
+  path: Assets/Devs/Models/FBX format/large_buildingA.fbx
+  artifactKey: Guid(3c3ff8104cbf65a4dad2d9cec8807b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Models/FBX format/large_buildingA.fbx using Guid(3c3ff8104cbf65a4dad2d9cec8807b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b2e20ea16eb8c171d38b963df53b3d') in 0.049819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Devs/Models/FBX format/large_buildingC.fbx
+  artifactKey: Guid(242ea6b8c07a7504780d22e0c147abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Models/FBX format/large_buildingC.fbx using Guid(242ea6b8c07a7504780d22e0c147abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e83efadbab006aa05207a299596fde') in 0.072178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Devs/Models/FBX format/low_buildingA.fbx
+  artifactKey: Guid(75119d3a069e1424ba55e4e19f95d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Models/FBX format/low_buildingA.fbx using Guid(75119d3a069e1424ba55e4e19f95d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc148ccff09513ec4ed5a9343d8ba582') in 0.043000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Devs/Models/FBX format/low_buildingE.fbx
+  artifactKey: Guid(960c48e3e6a21ce4882c9b54dd59a00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Models/FBX format/low_buildingE.fbx using Guid(960c48e3e6a21ce4882c9b54dd59a00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcbfb1a0796f9619efbe8e04cb555a4') in 0.033272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Devs/Models/FBX format/skyscraperA.fbx
+  artifactKey: Guid(71db0829aeb5e2345892bfed80186ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Models/FBX format/skyscraperA.fbx using Guid(71db0829aeb5e2345892bfed80186ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed39559fe1c11cc067a964d9fbca2ed') in 0.059388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Devs/Models/FBX format/large_buildingF.fbx
+  artifactKey: Guid(bdd4c2b803b749e4595ca3e92b481ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Models/FBX format/large_buildingF.fbx using Guid(bdd4c2b803b749e4595ca3e92b481ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd8f4eca0b7de216c0933d4f9010312') in 0.063972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.471957 seconds.
+  path: Assets/Devs/Cyber_Roma_new_buildings/Models/modern_building_1_version_1.fbx
+  artifactKey: Guid(e105c4e8a048213468ffc6fa0030b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Cyber_Roma_new_buildings/Models/modern_building_1_version_1.fbx using Guid(e105c4e8a048213468ffc6fa0030b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee376f8eab452a91e9889d0ab72f4615') in 0.039739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Devs/Cyber_Roma_new_buildings/Models/modern_roman_building_2_version_1_1.fbx
+  artifactKey: Guid(cf68d4af8ba9fef45932197806e9f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Cyber_Roma_new_buildings/Models/modern_roman_building_2_version_1_1.fbx using Guid(cf68d4af8ba9fef45932197806e9f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f601954fb4e57eac6b8e23cf815015') in 0.114551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.523554 seconds.
+  path: Assets/Animations/Crouching Idle.fbx
+  artifactKey: Guid(196cb1b33f7bd50499919cf6edce6c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Crouching Idle.fbx using Guid(196cb1b33f7bd50499919cf6edce6c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7103fd2904748bb3bbd1978398c15941') in 0.079071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animations/ybot@Falling To Roll.fbx
+  artifactKey: Guid(fa96d8b9d1621ae49bcbff6d38cb0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ybot@Falling To Roll.fbx using Guid(fa96d8b9d1621ae49bcbff6d38cb0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06e6b40463bf4dfb3c68daba7dba388') in 0.060505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animations/Wall Run.fbx
+  artifactKey: Guid(cedaf3c9cee276444bd0b41a3d5bce2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wall Run.fbx using Guid(cedaf3c9cee276444bd0b41a3d5bce2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43a46ed85d2ff70d9799b7c726a0d7d') in 0.060537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animations/Idle Animation.fbx
+  artifactKey: Guid(2dced360a32d9034d9fa104858d8ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Idle Animation.fbx using Guid(2dced360a32d9034d9fa104858d8ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aec09329756d22f7acc4c5c326f50c5') in 0.057783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.254842 seconds.
+  path: Assets/Roman_Character_biggus_dickus_1.fbx
+  artifactKey: Guid(98f2ae4e58b9ae84e8869f48e48dc5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roman_Character_biggus_dickus_1.fbx using Guid(98f2ae4e58b9ae84e8869f48e48dc5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c639962bf8017398c503a3e370f14e') in 0.056965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Roman_Character_biggus_dickus_CORRECT_ONE.prefab
+  artifactKey: Guid(0a25de6079c94524b98c2263db5106de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roman_Character_biggus_dickus_CORRECT_ONE.prefab using Guid(0a25de6079c94524b98c2263db5106de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8786f80e07519dd1fa335abfbc04a7') in 0.459314 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
