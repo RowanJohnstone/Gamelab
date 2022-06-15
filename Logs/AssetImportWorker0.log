@@ -15,7 +15,7 @@ C:/Users/Diana/University/Assigments/Year_2/Block_3/Game_Lab/Github_Project/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58000
+59520
 Successfully changed project path to: C:/Users/Diana/University/Assigments/Year_2/Block_3/Game_Lab/Github_Project/Gamelab
 C:/Users/Diana/University/Assigments/Year_2/Block_3/Game_Lab/Github_Project/Gamelab
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Diana/University/Assigments/Year_2/Block_3/Game_Lab/Github_Project/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.14f1 (bcb93e5482d2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004206 seconds.
+Registered in 0.004172 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
+- Completed reload, in  0.717 seconds
 Domain Reload Profiling:
-	ReloadAssembly (654ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (476ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (302ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (331ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (106ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005329 seconds.
+Registered in 0.007664 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Diana\University\Assigments\Year_2\Block_3\Game_Lab\Github_Project\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Diana\University\Assigments\Year_2\Block_3\Game_Lab\Github_Project\Gamelab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.827 seconds
+- Completed reload, in  1.793 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1828ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1794ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1594ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (1576ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1118ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1143ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (825ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (842ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -139,13 +139,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 42 unused Assets / (1.9 MB). Loaded Objects now: 5523.
-Memory consumption went from 205.9 MB to 203.9 MB.
-Total: 4.696300 ms (FindLiveObjects: 0.426400 ms CreateObjectMapping: 0.361300 ms MarkObjects: 3.474800 ms  DeleteObjects: 0.433100 ms)
+Memory consumption went from 206.0 MB to 204.0 MB.
+Total: 4.928600 ms (FindLiveObjects: 0.530400 ms CreateObjectMapping: 0.570600 ms MarkObjects: 3.230300 ms  DeleteObjects: 0.596500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,166 +159,292 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 102354.294805 seconds.
-  path: Assets/Devs/Prefabs/Body.prefab
-  artifactKey: Guid(c8dc12eeef0bd01439c5ce0612386290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Prefabs/Body.prefab using Guid(c8dc12eeef0bd01439c5ce0612386290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4e44aa9b43f68a11e3ee11201a4447') in 0.154805 seconds 
+  Time since last request: 175960.375328 seconds.
+  path: Assets/Diana's/prefabs/large_buildingA1.fbx
+  artifactKey: Guid(af509b3e4a050a24b9bccddfd9b971ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/large_buildingA1.fbx using Guid(af509b3e4a050a24b9bccddfd9b971ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7542b2f74d4005445fb0588b11f2cd2') in 0.250127 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Devs/Prefabs/Spikeball.prefab
-  artifactKey: Guid(9da404eb37cf11347b9caae2be2dba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Prefabs/Spikeball.prefab using Guid(9da404eb37cf11347b9caae2be2dba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28351958b84e716644463e5b0b7b2443') in 0.016005 seconds 
+  Time since last request: 3.629584 seconds.
+  path: Assets/Diana's/prefabs/large_buildingB1.fbx
+  artifactKey: Guid(48df0273d88b40247b8c93678af03d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/large_buildingB1.fbx using Guid(48df0273d88b40247b8c93678af03d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ce8b66944d3774893cac020cb9df77') in 0.047937 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Devs/Prefabs/Long Bridge.prefab
-  artifactKey: Guid(60d4776bcdf992643a1feefbc766e32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Prefabs/Long Bridge.prefab using Guid(60d4776bcdf992643a1feefbc766e32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6cdee5bc83c121b9e53f825c164c3e') in 0.012396 seconds 
+  Time since last request: 4.207193 seconds.
+  path: Assets/Diana's/prefabs/large_buildingC1.fbx
+  artifactKey: Guid(b085aa405c39fb34dbb654620539b79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/large_buildingC1.fbx using Guid(b085aa405c39fb34dbb654620539b79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256b5cab7606180a5aacb4f1f5d8061a') in 0.075794 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Devs/Prefabs/Hurdle.prefab
-  artifactKey: Guid(7073dea876b28164696c658a26c02102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Prefabs/Hurdle.prefab using Guid(7073dea876b28164696c658a26c02102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16789ee38146be59c7167e17767e37ae') in 0.012583 seconds 
+  Time since last request: 4.312305 seconds.
+  path: Assets/Diana's/prefabs/large_buildingF1.fbx
+  artifactKey: Guid(869a79aba68f8d948ba598c23b519357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/large_buildingF1.fbx using Guid(869a79aba68f8d948ba598c23b519357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8d04e2f5944e60e0da4887cb0e4619') in 0.087854 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Devs/Prefabs/WallRun 1.prefab
-  artifactKey: Guid(99bdb2bfcfd48e0449b76448edcc5049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Prefabs/WallRun 1.prefab using Guid(99bdb2bfcfd48e0449b76448edcc5049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439ba993c60c3f935d9d1527f8ef26a8') in 0.013541 seconds 
+  Time since last request: 5.756512 seconds.
+  path: Assets/Diana's/prefabs/large_buildingF1 1.fbx
+  artifactKey: Guid(458e29a8626d6b54da2890ece60bad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/large_buildingF1 1.fbx using Guid(458e29a8626d6b54da2890ece60bad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be7012408417d1c16bdd12a89ed2e4f') in 0.074807 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.860394 seconds.
-  path: Assets/Materials/metal.mat
-  artifactKey: Guid(85a8b4ac201e5d04b9d668c71794900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/metal.mat using Guid(85a8b4ac201e5d04b9d668c71794900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749762ca9f283d6af76b5c5851805221') in 0.080061 seconds 
+  Time since last request: 5.786682 seconds.
+  path: Assets/Diana's/prefabs/low_buildingA1.fbx
+  artifactKey: Guid(7d55d9e2eaf097645a72b1996dc39cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_buildingA1.fbx using Guid(7d55d9e2eaf097645a72b1996dc39cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df52e2dd8cc0bc3b1ecd0945607d557f') in 0.061232 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.722731 seconds.
-  path: Assets/Models/building_example.fbx
-  artifactKey: Guid(33989c7c43a9e32419b3db08de24388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/building_example.fbx using Guid(33989c7c43a9e32419b3db08de24388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2c25f0856cba0dc2f44d2538f4accc') in 0.497888 seconds 
+  Time since last request: 3.358383 seconds.
+  path: Assets/Diana's/prefabs/low_buildingB1.fbx
+  artifactKey: Guid(d928b822cb531fe40a5cc92cc54aec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_buildingB1.fbx using Guid(d928b822cb531fe40a5cc92cc54aec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67891290778f2cae0ababa1f928cf8a') in 0.029912 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.931396 seconds.
-  path: Assets/Devs/Dev mats/41952e0fbf2665a1d7ba0e0e2b5bd85816a8fab01593d0f515cbfce45010bdd7.mat
-  artifactKey: Guid(c5485bef65ae85a41a7576192f3387f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Dev mats/41952e0fbf2665a1d7ba0e0e2b5bd85816a8fab01593d0f515cbfce45010bdd7.mat using Guid(c5485bef65ae85a41a7576192f3387f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f49e86847a6c71894cf69b5f11f484') in 0.073056 seconds 
+  Time since last request: 3.528786 seconds.
+  path: Assets/Diana's/prefabs/low_buildingC1.fbx
+  artifactKey: Guid(eed6edda76c146e439e7aaa214846ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_buildingC1.fbx using Guid(eed6edda76c146e439e7aaa214846ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559acaff3cdba03f2a22375af010f1f0') in 0.060152 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Devs/Dev mats/modern-metal-wall_normal-ogl.png
-  artifactKey: Guid(9cbdcb748e043f6449221cf4dd2bfaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Dev mats/modern-metal-wall_normal-ogl.png using Guid(9cbdcb748e043f6449221cf4dd2bfaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ab22f5691784babc04b536665f10d5') in 0.037579 seconds 
+  Time since last request: 3.587642 seconds.
+  path: Assets/Diana's/prefabs/low_buildingE1.fbx
+  artifactKey: Guid(17a2595f47b492e4cb16502805f931a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_buildingE1.fbx using Guid(17a2595f47b492e4cb16502805f931a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ca8881ae57b79924d2e8c84d677e7f') in 0.030804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Devs/Dev mats/NoFriction.physicMaterial
-  artifactKey: Guid(95409dcb49d3dda4e8e3d92285c6a2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Dev mats/NoFriction.physicMaterial using Guid(95409dcb49d3dda4e8e3d92285c6a2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce11403c93305dc3503e5040c563adf') in 0.008868 seconds 
+  Time since last request: 3.291145 seconds.
+  path: Assets/Diana's/prefabs/low_buildingF1.fbx
+  artifactKey: Guid(6141a3a851c01e447b918abdf8fda213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_buildingF1.fbx using Guid(6141a3a851c01e447b918abdf8fda213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f3bfe3387911ba2ccd7def489121a9') in 0.053748 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Devs/Dev mats/Tutorial Mat.mat
-  artifactKey: Guid(4fad9d3554a1d7b41ba1d1a59633ffed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Dev mats/Tutorial Mat.mat using Guid(4fad9d3554a1d7b41ba1d1a59633ffed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacdada90363d8a6e4c64c0e2e834147') in 0.018692 seconds 
+  Time since last request: 3.447089 seconds.
+  path: Assets/Diana's/prefabs/low_buildingJ1.fbx
+  artifactKey: Guid(1d67e93888bd0a447a1d6b013cbaa941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_buildingJ1.fbx using Guid(1d67e93888bd0a447a1d6b013cbaa941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4665458cc88c7e66723a02555d3c4a49') in 0.036889 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Devs/Dev mats/Material 2.mat
-  artifactKey: Guid(4681602f23f17ec4283021a2f229c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Dev mats/Material 2.mat using Guid(4681602f23f17ec4283021a2f229c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f02a0516c41816c8176541fcd51d1e') in 0.018819 seconds 
+  Time since last request: 7.094348 seconds.
+  path: Assets/Diana's/prefabs/low_buildingL1.fbx
+  artifactKey: Guid(387ce97ca2c251f44bca2bc6f633404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_buildingL1.fbx using Guid(387ce97ca2c251f44bca2bc6f633404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c8159d48f8afa604c828aba7a816a5') in 0.062584 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Devs/Dev mats/Transparent.mat
-  artifactKey: Guid(186d87b80ec1f9c4e89c356453cda967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Dev mats/Transparent.mat using Guid(186d87b80ec1f9c4e89c356453cda967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e893f432af2793955204a07807d682b') in 0.022205 seconds 
+  Time since last request: 4.789131 seconds.
+  path: Assets/Diana's/prefabs/low_buildingN1.fbx
+  artifactKey: Guid(39529352cafd959418a45f88e34ec9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_buildingN1.fbx using Guid(39529352cafd959418a45f88e34ec9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da7545db27ffac5a7a7d5291ebdaa6b') in 0.053083 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Devs/Dev mats/White.mat
-  artifactKey: Guid(6a12bc7b4b06c9647b6200c962c88d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Devs/Dev mats/White.mat using Guid(6a12bc7b4b06c9647b6200c962c88d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13318bac7dbe3606ba365bac5210904c') in 0.016695 seconds 
+  Time since last request: 5.366050 seconds.
+  path: Assets/Diana's/prefabs/low_wideA1.fbx
+  artifactKey: Guid(18cf41f2839fc914db6f04021ecf0e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_wideA1.fbx using Guid(18cf41f2839fc914db6f04021ecf0e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a924fe202fc91f004386bb0a1390261') in 0.047394 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.797479 seconds.
-  path: Assets/Prefabs/Player Controller.prefab
-  artifactKey: Guid(c4cf2af141906a14bacf51f33c82f548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player Controller.prefab using Guid(c4cf2af141906a14bacf51f33c82f548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56036623dc4608f361cdb3a0c214579') in 0.536908 seconds 
+  Time since last request: 5.707471 seconds.
+  path: Assets/Diana's/prefabs/low_wideB1.fbx
+  artifactKey: Guid(0c794f7c38dfbab4ab18511e297affd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/low_wideB1.fbx using Guid(0c794f7c38dfbab4ab18511e297affd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291534f50a95a3448822f81b2183a3e5') in 0.048532 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 124.548493 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA__defaultMat_Emissive.png
-  artifactKey: Guid(61d839c000006fe45b3fc3778b116111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA__defaultMat_Emissive.png using Guid(61d839c000006fe45b3fc3778b116111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1067670ebd51d5c7f5d8462f920eb8bb') in 0.020235 seconds 
+  Time since last request: 5.536329 seconds.
+  path: Assets/Diana's/prefabs/skyscraperA1.fbx
+  artifactKey: Guid(1a7e5646e51b6154981ede28c8ba7310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/skyscraperA1.fbx using Guid(1a7e5646e51b6154981ede28c8ba7310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050eaa3ddb59f416650758f83cb12d00') in 0.081289 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA_window_BaseColor.png
-  artifactKey: Guid(2ed843b4fd6e3b8409e67df86beb7c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA_window_BaseColor.png using Guid(2ed843b4fd6e3b8409e67df86beb7c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc328e24cfdc51c09698f08d452cec87') in 0.019115 seconds 
+  Time since last request: 4.850710 seconds.
+  path: Assets/Diana's/prefabs/skyscraperE1.fbx
+  artifactKey: Guid(fb5e16ea3d6094448887f22d1e4d0720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/skyscraperE1.fbx using Guid(fb5e16ea3d6094448887f22d1e4d0720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2157dff54d004cc8b51fdb2c0f4b5e96') in 0.085802 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA__defaultMat_Roughness.png
-  artifactKey: Guid(8a4faddc003e6c144a00f4e634cd48e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA__defaultMat_Roughness.png using Guid(8a4faddc003e6c144a00f4e634cd48e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd76b347b395843d3f44e005059a2ff') in 0.017904 seconds 
+  Time since last request: 4.889877 seconds.
+  path: Assets/Diana's/prefabs/small_buildingA1.fbx
+  artifactKey: Guid(85aa997ae79d06c48b49229e74a816dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/small_buildingA1.fbx using Guid(85aa997ae79d06c48b49229e74a816dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120671f011283e484a6c2c351687b2d2') in 0.061407 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA_door_BaseColor.png
-  artifactKey: Guid(7a68023cd1303cd45a90092f7e2fae79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA_door_BaseColor.png using Guid(7a68023cd1303cd45a90092f7e2fae79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c60eadc241ab82cadbbf03989a7f1bc') in 0.016365 seconds 
+  Time since last request: 4.773229 seconds.
+  path: Assets/Diana's/prefabs/small_buildingD1.fbx
+  artifactKey: Guid(0ad95d5e16fb9054bb58947c788acc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/small_buildingD1.fbx using Guid(0ad95d5e16fb9054bb58947c788acc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365dc2e5cdb65627cfaecd58072920dc') in 0.075759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA_door_Roughness.png
-  artifactKey: Guid(634a6952ef99c3243814eea7d650fbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA_door_Roughness.png using Guid(634a6952ef99c3243814eea7d650fbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ff6bd7b6c638d1cd3da3d636034dd8') in 0.019063 seconds 
+  Time since last request: 5.066604 seconds.
+  path: Assets/Diana's/prefabs/small_buildingE1.fbx
+  artifactKey: Guid(71d64d0250086424ab56892ee3a29c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/prefabs/small_buildingE1.fbx using Guid(71d64d0250086424ab56892ee3a29c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27a90b182f6c114e5c6d4368521f321') in 0.078992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA_door_Height.png
-  artifactKey: Guid(22ede298dd2601243a1b3fd92715aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA_door_Height.png using Guid(22ede298dd2601243a1b3fd92715aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1493202eafbce0abd77cb4d140d34d2f') in 0.014606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA__defaultMat_Metallic.png
-  artifactKey: Guid(b19dcc7e2b626224791e284b4054101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA__defaultMat_Metallic.png using Guid(b19dcc7e2b626224791e284b4054101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80a91e77a2eb23009347921467c6924') in 0.021409 seconds 
+  Time since last request: 10.395589 seconds.
+  path: Assets/Diana's/materials/large_A/base.mat
+  artifactKey: Guid(ff6d0492590f35745ac1428bde6fa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/large_A/base.mat using Guid(ff6d0492590f35745ac1428bde6fa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fa606bed5c0ae1d1debd8c8281f761') in 0.048240 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA_window_Normal.png
-  artifactKey: Guid(0ef0bfb40c9983d43a9bd73008451e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA_window_Normal.png using Guid(0ef0bfb40c9983d43a9bd73008451e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e4166037b48e70b9e724a4782943ad') in 0.013480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA__defaultMat_Height.png
-  artifactKey: Guid(fae029ecb6fa20a47ae61390492d4a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA__defaultMat_Height.png using Guid(fae029ecb6fa20a47ae61390492d4a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677e2dde67993038c880ce1135e9b178') in 0.022366 seconds 
+  path: Assets/Diana's/materials/large_A/gray_accent.mat
+  artifactKey: Guid(271db3a6149b8fa48874fe954eb79637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/large_A/gray_accent.mat using Guid(271db3a6149b8fa48874fe954eb79637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c19a8792b462a70ed3ed8897df41bf') in 0.062406 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA_window_Height.png
-  artifactKey: Guid(4abd39bc4d059f748ab12a112af944c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA_window_Height.png using Guid(4abd39bc4d059f748ab12a112af944c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4719992f9f7673cfc32865ad4e93644b') in 0.014597 seconds 
+  path: Assets/Diana's/materials/large_A/window.mat
+  artifactKey: Guid(236bed6184992fb4d99a05c5759349d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/large_A/window.mat using Guid(236bed6184992fb4d99a05c5759349d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db1d7fc938b2c12bfe6cc20b85f56e7') in 0.023394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.024785 seconds.
+  path: Assets/Diana's/materials/base_green.mat
+  artifactKey: Guid(ff6d0492590f35745ac1428bde6fa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/base_green.mat using Guid(ff6d0492590f35745ac1428bde6fa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb502dcdacc807d53c382f39776900b9') in 0.017096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.353531 seconds.
+  path: Assets/Diana's/materials/base_green 1.mat
+  artifactKey: Guid(78c90853c840c3d47ad849cf111c6266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/base_green 1.mat using Guid(78c90853c840c3d47ad849cf111c6266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec862119f10c387fd78a763fa22a4960') in 0.017498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.526150 seconds.
+  path: Assets/Diana's/materials/base_green 2.mat
+  artifactKey: Guid(b322fea3026a3de449a9a0fc1da6ecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/base_green 2.mat using Guid(b322fea3026a3de449a9a0fc1da6ecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2570f0ffafd4c6a6d6ad70934b1e4d4') in 0.015930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.484550 seconds.
+  path: Assets/Diana's/materials/base_green 3.mat
+  artifactKey: Guid(0d01a3e268f4bb3468636a6fc35aa2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/base_green 3.mat using Guid(0d01a3e268f4bb3468636a6fc35aa2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4a6dc0aba006f8bb50a85eddb2df00') in 0.020479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.767983 seconds.
+  path: Assets/Diana's/materials/base_blue.mat
+  artifactKey: Guid(0d01a3e268f4bb3468636a6fc35aa2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/base_blue.mat using Guid(0d01a3e268f4bb3468636a6fc35aa2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afbc5e92addffbff99aa83d1a258755') in 0.018107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.435010 seconds.
+  path: Assets/Diana's/materials/base_purple.mat
+  artifactKey: Guid(78c90853c840c3d47ad849cf111c6266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/base_purple.mat using Guid(78c90853c840c3d47ad849cf111c6266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9520223fc321309c3e2aae03b6f57b38') in 0.017021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.841506 seconds.
+  path: Assets/Diana's/materials/base_brown.mat
+  artifactKey: Guid(b322fea3026a3de449a9a0fc1da6ecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/materials/base_brown.mat using Guid(b322fea3026a3de449a9a0fc1da6ecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71228c1a94a49c5ef95e1de624b47356') in 0.018103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.218175 seconds.
+  path: Assets/Diana's/meshes/large_buildingB__defaultMat_BaseColor.png
+  artifactKey: Guid(b17e77750f383fd4bb8b8cc192cae70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/meshes/large_buildingB__defaultMat_BaseColor.png using Guid(b17e77750f383fd4bb8b8cc192cae70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d8d67bd36e8ae9c34ee8aab6fe8cb8') in 0.087244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Diana's/meshes/large_buildingB__defaultMat_Metallic.png
+  artifactKey: Guid(c3792c15abdd27149a4de801db153e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/meshes/large_buildingB__defaultMat_Metallic.png using Guid(c3792c15abdd27149a4de801db153e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ca4003e3a781ffec5eb8143eb26dd0') in 0.013289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Diana's/meshes/large_buildingB__defaultMat_Height.png
+  artifactKey: Guid(110db4d7e7862b143a388df5d892c29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/meshes/large_buildingB__defaultMat_Height.png using Guid(110db4d7e7862b143a388df5d892c29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0495e6dfed0b02f1f4397e0fc64df2d5') in 0.014244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.248714 seconds.
+  path: Assets/Diana's/meshes/large_buildingC__defaultMat_Emissive.png
+  artifactKey: Guid(28b0d0a195ddeb148ad6378702acbb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/meshes/large_buildingC__defaultMat_Emissive.png using Guid(28b0d0a195ddeb148ad6378702acbb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ba46f26a9c393efcaa4059929d98ae') in 0.021766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Diana's/meshes/large_buildingC__defaultMat_Roughness.png
+  artifactKey: Guid(4b5d867542248ec47a0bd3792eabdfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/meshes/large_buildingC__defaultMat_Roughness.png using Guid(4b5d867542248ec47a0bd3792eabdfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3344a25e322de2cc0c795914c5a9cb9b') in 0.016124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Diana's/meshes/large_buildingC__defaultMat_Metallic.png
+  artifactKey: Guid(99fff13b5405a7e44bf4190b1704998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/meshes/large_buildingC__defaultMat_Metallic.png using Guid(99fff13b5405a7e44bf4190b1704998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468a4da3735da155a1d68ae192688732') in 0.015801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.496960 seconds.
+  path: Assets/Diana's/meshes/large_buildingF__defaultMat_Emissive.png
+  artifactKey: Guid(42b62191d9d857e4c92e89b2f2506143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/meshes/large_buildingF__defaultMat_Emissive.png using Guid(42b62191d9d857e4c92e89b2f2506143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0402af42fa63b5b1ecf3dce4866b7c4e') in 0.016880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Diana's/meshes/large_buildingF__defaultMat_Metallic.png
+  artifactKey: Guid(724a2c1cb9e7e544d9ed607aec32f24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana's/meshes/large_buildingF__defaultMat_Metallic.png using Guid(724a2c1cb9e7e544d9ed607aec32f24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33468e6d605f1afef50ecaf7342f509e') in 0.022370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.921742 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/HighFantasy4k.hdr
+  artifactKey: Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/HighFantasy4k.hdr using Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adc7bb6f2dc589e9f11e01b386c4d1e') in 0.139181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Devs/Cyber_Roma_new_buildings/Meshes_Buildings/columns/ver_1/cyberpunk_column_groves_Metallic.png
+  artifactKey: Guid(6ae339713f411b14a8744f12056e5ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Cyber_Roma_new_buildings/Meshes_Buildings/columns/ver_1/cyberpunk_column_groves_Metallic.png using Guid(6ae339713f411b14a8744f12056e5ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded21e86b7378f57cb4b383997bb5d5') in 0.024633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Devs/Cyber_Roma_new_buildings/Meshes_Buildings/fountain/fountain_Material.005_Metallic.png
+  artifactKey: Guid(b5db0dac7fcb83d48a4a4976d05b3d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devs/Cyber_Roma_new_buildings/Meshes_Buildings/fountain/fountain_Material.005_Metallic.png using Guid(b5db0dac7fcb83d48a4a4976d05b3d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25d2962f10353ccbb96d67069b7d679') in 0.026367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
+  artifactKey: Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudTop.hdr using Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43448648e8468c9b9825312c4f064a4') in 0.026035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayFront.hdr
+  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccced107798485bf85615b1fd7d41170') in 0.023915 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA_border_Roughness.png
-  artifactKey: Guid(1cc6a1389d6a06944800e9fee31a69d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA_border_Roughness.png using Guid(1cc6a1389d6a06944800e9fee31a69d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c1e1cb22f5eb5445db5068b6900c07') in 0.017898 seconds 
+  path: Assets/SkySerie Freebie/FreebieHdri/CloudedSunGlow4k.hdr
+  artifactKey: Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CloudedSunGlow4k.hdr using Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0417985e5c8c2ce9488cdb261d674375') in 0.063377 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Diana's/meshes/large_A/large_buildingA_window_Roughness.png
-  artifactKey: Guid(292632ca1d248944b8df962eed5380d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diana's/meshes/large_A/large_buildingA_window_Roughness.png using Guid(292632ca1d248944b8df962eed5380d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e4bf1153a621ff62f6d523bc90b68d') in 0.021410 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayBack.hdr
+  artifactKey: Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayBack.hdr using Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5978b11614c96672274b8ada45c5062f') in 0.022541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudFront.hdr
+  artifactKey: Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudFront.hdr using Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe7b71cd225a4efa5b2c618a365a5e8') in 0.023059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/AmbienceExposure4k.hdr
+  artifactKey: Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/AmbienceExposure4k.hdr using Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eead6c51a5934b1e76bbd88be3e052') in 0.060748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDay4k.hdr
+  artifactKey: Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDay4k.hdr using Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beec5343b070d6b93a0c00e0860cae9e') in 0.067065 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
